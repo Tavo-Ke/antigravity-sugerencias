@@ -4,10 +4,12 @@
 
 ---
 
-## 📌 Documentos Principales
+## 📌 Estructura del Repositorio
 
 - 💡 [**SUGERENCIAS.md**](https://github.com/Tavo-Ke/antigravity-sugerencias/blob/main/SUGERENCIAS.md): El registro continuo de todas las notas, tips y soluciones ordenadas por categoría con sus herramientas asociadas.
 - 🤖 [**PROMPT_GUIA.md**](https://github.com/Tavo-Ke/antigravity-sugerencias/blob/main/PROMPT_GUIA.md): El prompt de sistema y la directiva utilizada para documentar automáticamente.
+- ⚙️ [**docs/AUTOMATIZACION.md**](https://github.com/Tavo-Ke/antigravity-sugerencias/blob/main/docs/AUTOMATIZACION.md): Explicación técnica de la arquitectura de automatización y funcionamiento interno.
+- 📜 [**scripts/sync_sugerencias.ps1**](https://github.com/Tavo-Ke/antigravity-sugerencias/blob/main/scripts/sync_sugerencias.ps1): Script de PowerShell reutilizable para sincronizar notas vía GitHub REST API.
 
 ---
 
