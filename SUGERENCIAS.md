@@ -9,6 +9,7 @@ Este archivo recopila detalladamente todas las notas, tips técnicos, configurac
 - **Repositorio de Registro:** [Tavo-Ke/antigravity-sugerencias](https://github.com/Tavo-Ke/antigravity-sugerencias)
 - **Sistema Operativo:** Windows
 - **Entorno de Ejecución:** PowerShell / Node.js (`v22.14.0`), npm (`10.9.2`)
+- **Graphify CLI:** `@nodesify/graphify` (`v0.8.0`)
 - **Integración con GitHub API:** Token de Acceso Personal (PAT Classic) con ámbito `repo`
 - **Configuración MCP Local:** `C:\Users\user\.gemini\config\mcp_config.json`
 
@@ -55,6 +56,20 @@ Este archivo recopila detalladamente todas las notas, tips técnicos, configurac
   - Utiliza el comando `/learn` dentro de la interfaz de chat para guardar un hábito o regla aprendida.
   - O crea archivos de reglas dentro de la carpeta `.agents/rules/` de tu proyecto o en la configuración global.
 - **Resultado Esperado:** La IA recordará automáticamente el contexto y las preferencias en futuras sesiones.
+
+---
+
+### 📌 4. Instalación y Uso de Graphify (`@nodesify/graphify`)
+- **Categoría:** 📦 Instalaciones & Procesos
+- **Herramientas Afectadas:** `Node.js`, `npm`, `Graphify CLI`
+- **Repositorio:** `Tavo-Ke/antigravity-sugerencias` (`procesos/INSTALACIONES_Y_CONSULTAS.md`)
+- **Descripción:** Instalación del paquete `@nodesify/graphify` para análisis de código y mapas de conocimiento.
+- **Comando:**
+  ```powershell
+  npm install -g @nodesify/graphify
+  npx @nodesify/graphify --help
+  ```
+- **Resultado Esperado:** Graphify instalado y disponible para convertir cualquier proyecto en un mapa de conocimiento ejecutable.
 
 ---
 
