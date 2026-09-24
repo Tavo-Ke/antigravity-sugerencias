@@ -30,13 +30,21 @@ Este documento forma parte de la carpeta `procesos/` y sirve como bitácora deta
 | 24/09/2026 | `npm` | `npm.cmd search graphify` | Búsqueda exitosa de paquetes relacionados con Graphify. |
 | 24/09/2026 | `npm` | `npm install -g @nodesify/graphify` | Instalación global completada exitosamente. |
 | 24/09/2026 | `npx` | `npx @nodesify/graphify --help` | Verificación de CLI y lista de comandos de Graphify. |
+| 24/09/2026 | `Graphify CLI` | `npx @nodesify/graphify run "limites_y_continuidad"` | Generación de gráfico de conocimiento de 15 nodos y 12 aristas en 3 comunidades. |
+| 24/09/2026 | `Graphify CLI` | `npx @nodesify/graphify query "que tipos..."` | Consulta de grafo en profundidad BFS=2 retornando 10 nodos relacionados. |
 | 24/09/2026 | `PowerShell` | `Invoke-RestMethod (GitHub API)` | Sincronización automática de archivos en GitHub. |
 
 ---
 
-## ⚙️ 3. Protocolo para Nuevas Instalaciones y Consultas
+## 🌐 3. Caso Práctico: Grafo de Conocimiento de "Límites y Continuidad"
 
-Cada nueva herramienta instalada o proceso de consulta complejo se registrará bajo el siguiente esquema:
-1. **Identificación:** Nombre del paquete, versión y comando de instalación.
-2. **Validación:** Comando de verificación y salida esperada.
-3. **Sincronización Automática:** Actualización en la carpeta `procesos/` del repositorio de GitHub.
+Se estructuraron las notas del capítulo de Matemáticas I en la carpeta `limites_y_continuidad/`:
+- `01_concepto_de_limite.md`
+- `02_calculo_de_limites.md`
+- `03_continuidad_de_funciones.md`
+
+### Resultados de Graphify:
+- **Nodos agregados:** 15
+- **Aristas (Edges):** 12
+- **Comunidades de conocimiento:** 3
+- **Resultado de Consulta BFS (Indeterminaciones):** Conexión exitosa entre los métodos de resolución de $0/0$, $\infty/\infty$, $\infty-\infty$ y $1^\infty$.
