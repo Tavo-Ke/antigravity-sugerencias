@@ -1,39 +1,34 @@
-# 🚀 Antigravity - Documentación y Sugerencias
+# ðŸš€ Antigravity - Registro de Notas, Tips y Herramientas
 
-¡Bienvenido! Este repositorio contiene la documentación de sugerencias, mejores prácticas, configuraciones del entorno y aprendizajes generados durante las sesiones de trabajo con **Antigravity AI**.
-
----
-
-## 📌 Índice de Contenidos
-
-1. [Entorno del Sistema](#entorno-del-sistema)
-2. [Configuración de Herramientas](#configuracion-de-herramientas)
-3. [Mejores Prácticas & Recomendaciones](#mejores-practicas)
+Â¡Bienvenido! Este repositorio es la central de conocimientos donde **Antigravity AI** documenta automÃ¡ticamente todas las notas, tips tÃ©cnicos, soluciones de entorno y configuraciones de herramientas generadas en nuestras sesiones de desarrollo.
 
 ---
 
-## 💻 Entorno del Sistema
+## ðŸ“Œ Documentos Principales
 
-- **Node.js:** Versión 22.14.0 instalada.
-- **npm:** Versión 10.9.2 instalada.
-- **PowerShell en Windows:**
-  Si encuentras un error de políticas de ejecución al correr 
-pm en PowerShell (ExecutionPolicy), puedes solucionarlo ejecutando:
-  `powershell
-  Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-  `
+- ðŸ’¡ [**SUGERENCIAS.md**](https://github.com/Tavo-Ke/antigravity-sugerencias/blob/main/SUGERENCIAS.md): El registro continuo de todas las notas, tips y soluciones ordenadas por categorÃ­a con sus herramientas asociadas.
 
 ---
 
-## 🛠️ Configuración de Herramientas
+## ðŸ› ï¸ Herramientas Conectadas
 
-- **Integración con GitHub:**
-  - Personal Access Token (PAT) configurado con ámbito epo.
-  - Integrado con la configuración de Antigravity MCP.
-
-- **Comandos Útiles:**
-  - Usa el comando /learn dentro del chat para registrar preferencias o hábitos de desarrollo permanentes.
+| Herramienta | Detalles / VersiÃ³n | PropÃ³sito en el Sistema |
+| :--- | :--- | :--- |
+| **Node.js** | 22.14.0 | Entorno de ejecuciÃ³n JavaScript local |
+| **npm** | 10.9.2 | Gestor de paquetes de Node |
+| **PowerShell** | Windows | Terminal y ejecuciÃ³n de scripts locales |
+| **GitHub REST API** | PAT Classic (scope: repo) | ActualizaciÃ³n y sincronizaciÃ³n remota de notas |
+| **Antigravity AI** | Assistant | GeneraciÃ³n, estructuraciÃ³n y sincronizaciÃ³n de tips |
 
 ---
 
-*Repositorio mantenido automáticamente por Antigravity AI.*
+## ðŸ“‘ CategorÃ­as Registradas en SUGERENCIAS.md
+
+1. ðŸ› ï¸ **ConfiguraciÃ³n de Entorno & PowerShell:** Soluciones a polÃ­ticas de ejecuciÃ³n (ExecutionPolicy) y ejecuciones de 
+pm.
+2. ðŸ”‘ **Seguridad & Credenciales:** ConfiguraciÃ³n de Tokens de GitHub con principio de menor privilegio (epo).
+3. ðŸ’¡ **Memoria & Reglas:** Uso del comando /learn y reglas personalizadas en .agents/rules/.
+
+---
+
+*Repositorio actualizado automÃ¡ticamente por Antigravity AI.*
