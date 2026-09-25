@@ -4,19 +4,19 @@
   <meta charset="utf-8">
   <title>graphify &mdash; Knowledge Graph</title>
   <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin: 0; padding: 0; background: #1a1a2e; color: #e0e0e0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin: 0; padding: 0; background: radial-gradient(circle at center, #24243e 0%, #1a1a2e 40%, #0f0c29 100%); color: #e0e0e0; }
     #search { position: fixed; top: 12px; left: 12px; z-index: 100; }
-    #search input { width: 280px; padding: 8px 12px; border: 1px solid #444; border-radius: 6px; background: #16213e; color: #e0e0e0; font-size: 14px; }
+    #search input { width: 280px; padding: 8px 12px; border: 1px solid #444; border-radius: 6px; background: rgba(22, 33, 62, 0.85); backdrop-filter: blur(5px); color: #e0e0e0; font-size: 14px; }
     #search input::placeholder { color: #888; }
-    #info { position: fixed; bottom: 12px; left: 12px; z-index: 100; background: #16213e; border: 1px solid #333; border-radius: 6px; padding: 10px 14px; max-width: 400px; font-size: 13px; display: none; }
+    #info { position: fixed; bottom: 12px; left: 12px; z-index: 100; background: rgba(22, 33, 62, 0.85); backdrop-filter: blur(5px); border: 1px solid rgba(255, 255, 255, 0.1); box-shadow: 0 4px 15px rgba(0,0,0,0.5); border-radius: 6px; padding: 10px 14px; max-width: 400px; font-size: 13px; display: none; }
     #info .label { font-weight: bold; font-size: 15px; margin-bottom: 4px; }
     #info .meta { color: #aaa; }
-    #legend { position: fixed; top: 12px; right: 12px; z-index: 100; background: #16213e; border: 1px solid #333; border-radius: 6px; padding: 10px 14px; font-size: 12px; max-height: 300px; overflow-y: auto; }
+    #legend { position: fixed; top: 12px; right: 12px; z-index: 100; background: rgba(22, 33, 62, 0.85); backdrop-filter: blur(5px); border: 1px solid rgba(255, 255, 255, 0.1); box-shadow: 0 4px 15px rgba(0,0,0,0.5); border-radius: 6px; padding: 10px 14px; font-size: 12px; max-height: 300px; overflow-y: auto; }
     #legend h4 { margin: 0 0 6px 0; color: #ccc; }
     #legend .item { display: flex; align-items: center; gap: 6px; margin: 2px 0; }
     #legend .swatch { width: 14px; height: 14px; border-radius: 3px; }
     #legend .muted { color: #777; margin-top: 6px; }
-    #status { position: fixed; bottom: 12px; right: 12px; z-index: 100; display: flex; align-items: center; gap: 10px; background: #16213e; border: 1px solid #333; border-radius: 6px; padding: 8px 12px; font-size: 12px; color: #aaa; }
+    #status { position: fixed; bottom: 12px; right: 12px; z-index: 100; display: flex; align-items: center; gap: 10px; background: rgba(22, 33, 62, 0.85); backdrop-filter: blur(5px); border: 1px solid rgba(255, 255, 255, 0.1); box-shadow: 0 4px 15px rgba(0,0,0,0.5); border-radius: 6px; padding: 8px 12px; font-size: 12px; color: #aaa; }
     #toggleView { background: #0f3460; color: #e0e0e0; border: 1px solid #444; border-radius: 4px; padding: 5px 10px; font-size: 12px; cursor: pointer; }
     #toggleView:hover { background: #1a4a8a; }
     #network { width: 100vw; height: 100vh; }
@@ -125,19 +125,39 @@ function Dd(){return Dd=Object.assign||function(g){for(var A=1;A<arguments.lengt
     });
     applyView();
 
-    var options = {
+        var options = {
       autoResize: true,
-      nodes: { shape: 'dot', size: 12, font: { color: '#e0e0e0', size: 11 }, borderWidth: 0, borderWidthSelected: 2 },
-      edges: {
-        color: { color: '#555', highlight: '#fff', hover: '#aaa' },
-        smooth: false,
-        arrows: DATA.meta.showArrows ? { to: { enabled: true, scaleFactor: 0.4 } } : { to: { enabled: false } },
-        selectionWidth: 1.5
+      nodes: { 
+        shape: 'dot', 
+        size: 20, 
+        font: { color: '#ffffff', size: 14, strokeWidth: 2, strokeColor: '#16213e' }, 
+        borderWidth: 1, 
+        borderWidthSelected: 3,
+        shadow: { enabled: true, color: 'rgba(0,0,0,0.5)', size: 10, x: 5, y: 5 }
       },
-      // Positions are precomputed, so physics (the multi-minute stabilization
-      // on large graphs) stays off permanently.
-      physics: { enabled: false },
-      interaction: { hover: true, tooltipDelay: 300, navigationButtons: true, keyboard: true }
+      edges: {
+        color: { color: '#4d5d78', highlight: '#ffb347', hover: '#8899aa' },
+        smooth: { type: 'continuous', roundness: 0.5 },
+        arrows: DATA.meta.showArrows ? { to: { enabled: true, scaleFactor: 0.6 } } : { to: { enabled: false } },
+        selectionWidth: 2.5
+      },
+      physics: { 
+        enabled: true,
+        barnesHut: {
+            gravitationalConstant: -4000,
+            centralGravity: 0.1,
+            springLength: 200,
+            springConstant: 0.04,
+            damping: 0.09,
+            avoidOverlap: 0.5
+        },
+        stabilization: {
+            enabled: true,
+            iterations: 200,
+            updateInterval: 50
+        }
+      },
+      interaction: { hover: true, tooltipDelay: 200, navigationButtons: true, keyboard: true }
     };
 
     var network = new vis.Network(container, { nodes: nodes, edges: edges }, options);
@@ -163,3 +183,4 @@ function Dd(){return Dd=Object.assign||function(g){for(var A=1;A<arguments.lengt
   </script>
 </body>
 </html>
+
