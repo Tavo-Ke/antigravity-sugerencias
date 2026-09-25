@@ -22,16 +22,7 @@ Este archivo recopila detalladamente todas las notas, tips técnicos, configurac
 - **Herramientas Afectadas:** `PowerShell`, `Node.js`, `npm`
 - **Repositorio:** `Tavo-Ke/antigravity-sugerencias` (`SUGERENCIAS.md`)
 - **Descripción:** Al intentar ejecutar `npm` directamente en PowerShell en Windows, puede aparecer un error de seguridad `PSSecurityException` indicando que la ejecución de scripts está deshabilitada en el sistema (`ExecutionPolicy`).
-- **Soluciones:**
-  - *Opción A (Permitir scripts firmados en usuario actual):*
-    ```powershell
-    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-    ```
-  - *Opción B (Ejecutar binario cmd):*
-    ```powershell
-    npm.cmd -v
-    ```
-- **Resultado Esperado:** Ejecución limpia de comandos `npm` sin bloqueos de permisos.
+- **Solución:** `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser` o `npm.cmd`.
 
 ---
 
@@ -39,11 +30,7 @@ Este archivo recopila detalladamente todas las notas, tips técnicos, configurac
 - **Categoría:** 🔑 Seguridad y Credenciales
 - **Herramientas Afectadas:** `GitHub REST API`, `Antigravity MCP GitHub Server`
 - **Repositorio:** `Tavo-Ke/antigravity-sugerencias` (`SUGERENCIAS.md`)
-- **Descripción:** Al configurar integraciones automáticas entre herramientas AI y GitHub, es crucial seguir el principio de menor privilegio.
-- **Solución / Tip:**
-  - En lugar de marcar todos los permisos (que exponen borrado de repositorios o datos personales), selecciona únicamente el permiso principal **`repo`** (Full control of private/public repositories).
-  - El token se registra en `C:\Users\user\.gemini\config\mcp_config.json` bajo la variable `"GITHUB_PERSONAL_ACCESS_TOKEN"`.
-- **Resultado Esperado:** Autenticación exitosa para crear repositorios y archivos manteniendo la cuenta protegida.
+- **Descripción:** Aplicar principio de menor privilegio seleccionando únicamente el ámbito `repo`.
 
 ---
 
@@ -51,11 +38,7 @@ Este archivo recopila detalladamente todas las notas, tips técnicos, configurac
 - **Categoría:** 💡 Tips & Mejores Prácticas
 - **Herramientas Afectadas:** `Antigravity AI`, `System Rules`
 - **Repositorio:** `Tavo-Ke/antigravity-sugerencias` (`PROMPT_GUIA.md` / `SUGERENCIAS.md`)
-- **Descripción:** Para guardar preferencias de entorno, hábitos o instrucciones de manera permanente entre diferentes chats y proyectos.
-- **Solución / Tip:**
-  - Utiliza el comando `/learn` dentro de la interfaz de chat para guardar un hábito o regla aprendida.
-  - O crea archivos de reglas dentro de la carpeta `.agents/rules/` de tu proyecto o en la configuración global.
-- **Resultado Esperado:** La IA recordará automáticamente el contexto y las preferencias en futuras sesiones.
+- **Descripción:** Uso del comando `/learn` y reglas personalizadas en `.agents/rules/`.
 
 ---
 
@@ -64,12 +47,20 @@ Este archivo recopila detalladamente todas las notas, tips técnicos, configurac
 - **Herramientas Afectadas:** `Node.js`, `npm`, `Graphify CLI`
 - **Repositorio:** `Tavo-Ke/antigravity-sugerencias` (`procesos/INSTALACIONES_Y_CONSULTAS.md`)
 - **Descripción:** Instalación del paquete `@nodesify/graphify` para análisis de código y mapas de conocimiento.
-- **Comando:**
+
+---
+
+### 📌 5. Exportación de Wikis y Árboles HTML Interactivos con Graphify
+- **Categoría:** 🎨 Visualización & Documentación
+- **Herramientas Afectadas:** `Graphify CLI`, `HTML`, `Markdown`
+- **Repositorio:** `Tavo-Ke/antigravity-sugerencias` (`procesos/INSTALACIONES_Y_CONSULTAS.md`)
+- **Comandos de Exportación:**
   ```powershell
-  npm install -g @nodesify/graphify
-  npx @nodesify/graphify --help
+  npx @nodesify/graphify wiki   # Genera enciclopedia Markdown en .graphify/wiki/
+  npx @nodesify/graphify tree   # Exporta arbol navegable en tree.html
+  npx @nodesify/graphify export --format html # Grafo visual completo en graph.html
   ```
-- **Resultado Esperado:** Graphify instalado y disponible para convertir cualquier proyecto en un mapa de conocimiento ejecutable.
+- **Resultado Esperado:** Mapas visuales interactivos navegables directamente desde el navegador web.
 
 ---
 
