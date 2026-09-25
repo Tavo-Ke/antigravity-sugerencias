@@ -727,6 +727,30 @@
       "source": "contabilidad_activo_pasivo_apuntes_contabilidad::activo_pasivo_y_patrimonio_sesión_09",
       "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/Contabilidad_Activo_Pasivo/Apuntes_Contabilidad.md",
       "target": "contabilidad_activo_pasivo_apuntes_contabilidad::2_solución_al_ejercicio_práctico_diapositiva_18"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "tips_y_notas_ia_tip_manejo_archivos_pesados_github",
+      "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/Tips_y_Notas_IA/Tip_Manejo_Archivos_Pesados_GitHub.md",
+      "target": "tips_y_notas_ia_tip_manejo_archivos_pesados_github::tip_manejo_de_archivos_pesados_en_github_y_graphify"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "tips_y_notas_ia_tip_manejo_archivos_pesados_github::tip_manejo_de_archivos_pesados_en_github_y_graphify",
+      "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/Tips_y_Notas_IA/Tip_Manejo_Archivos_Pesados_GitHub.md",
+      "target": "tips_y_notas_ia_tip_manejo_archivos_pesados_github::1_límite_de_100_mb_de_github"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "tips_y_notas_ia_tip_manejo_archivos_pesados_github::tip_manejo_de_archivos_pesados_en_github_y_graphify",
+      "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/Tips_y_Notas_IA/Tip_Manejo_Archivos_Pesados_GitHub.md",
+      "target": "tips_y_notas_ia_tip_manejo_archivos_pesados_github::2_congelamiento_de_graphify"
     }
   ],
   "nodes": [
@@ -1769,6 +1793,46 @@
       "signature": null,
       "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/Contabilidad_Activo_Pasivo/Apuntes_Contabilidad.md",
       "source_line": 33
+    },
+    {
+      "community": 26,
+      "docstring": null,
+      "file_type": "document",
+      "id": "tips_y_notas_ia_tip_manejo_archivos_pesados_github",
+      "label": "Tip_Manejo_Archivos_Pesados_GitHub.md",
+      "signature": null,
+      "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/Tips_y_Notas_IA/Tip_Manejo_Archivos_Pesados_GitHub.md",
+      "source_line": null
+    },
+    {
+      "community": 26,
+      "docstring": null,
+      "file_type": "document",
+      "id": "tips_y_notas_ia_tip_manejo_archivos_pesados_github::tip_manejo_de_archivos_pesados_en_github_y_graphify",
+      "label": "Tip: Manejo de Archivos Pesados en GitHub y Graphify",
+      "signature": null,
+      "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/Tips_y_Notas_IA/Tip_Manejo_Archivos_Pesados_GitHub.md",
+      "source_line": 1
+    },
+    {
+      "community": 26,
+      "docstring": null,
+      "file_type": "document",
+      "id": "tips_y_notas_ia_tip_manejo_archivos_pesados_github::1_límite_de_100_mb_de_github",
+      "label": "1. Límite de 100 MB de GitHub",
+      "signature": null,
+      "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/Tips_y_Notas_IA/Tip_Manejo_Archivos_Pesados_GitHub.md",
+      "source_line": 8
+    },
+    {
+      "community": 26,
+      "docstring": null,
+      "file_type": "document",
+      "id": "tips_y_notas_ia_tip_manejo_archivos_pesados_github::2_congelamiento_de_graphify",
+      "label": "2. Congelamiento de Graphify",
+      "signature": null,
+      "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/Tips_y_Notas_IA/Tip_Manejo_Archivos_Pesados_GitHub.md",
+      "source_line": 12
     }
   ]
 }

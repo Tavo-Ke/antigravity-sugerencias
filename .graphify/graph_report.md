@@ -1,6 +1,6 @@
 # Graph Report
 
-**Nodes:** 104 | **Edges:** 91 | **Communities:** 26 | **Modularity:** 0.819
+**Nodes:** 108 | **Edges:** 94 | **Communities:** 27 | **Modularity:** 0.825
 
 _Built by graphify v0.8.0._
 
@@ -17,7 +17,7 @@ _Built by graphify v0.8.0._
 - **1. Conceptos Fundamentales** (4 nodes, cohesion 0.75)
 - **2. ¿Cuál es el "Uso Real" de Graphify?** (4 nodes, cohesion 0.75)
 
-... and 16 more communities (see the MCP list_communities tool).
+... and 17 more communities (see the MCP list_communities tool).
 
 ## Key Files
 
@@ -66,4 +66,4 @@ Top 12 of the cross-community edges, ranked by novelty (bigger, more cohesive co
 
 - Why does Graph Report have 7 connections — shared core or coupling problem?
 - 💡 Registro Global de Notas, Tips y Conexiones de Herramientas contains 📚 Historial de Notas y Tips Registrados crosses a community boundary - intentional or accidental coupling?
-- What are the responsibilities of the 26 communities?
+- What are the responsibilities of the 27 communities?
