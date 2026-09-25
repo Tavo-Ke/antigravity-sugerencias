@@ -45,3 +45,19 @@ Es común preguntarse si Graphify compite con herramientas como **NotebookLM**. 
 - **Cómo funciona:** Es una herramienta de línea de comandos (CLI) que mapea metadatos, enlaces explícitos y estructuras de carpetas.
 - **Fortaleza:** Mapea la estructura. No "entiende" la filosofía del texto, sino que construye un mapa (grafo) exacto de cómo se relaciona el Archivo A con el Archivo B para ahorrar costos (tokens) cuando programas tus propias IAs, o para generar sitios web estáticos y mapas visuales interactivos.
 - **Cuándo es mejor:** Si estás construyendo tu propia aplicación de IA, documentando código de programación, o quieres exportar tus apuntes de Obsidian a una página web pública.
+
+## 4. ¿Con qué herramientas se complementa Graphify?
+
+Graphify es solo una "pieza del rompecabezas". Está diseñado para conectarse con otros ecosistemas tecnológicos para crear flujos de trabajo avanzados:
+
+### A. Para la Creación de Contenido (Upstream)
+* **Obsidian / Logseq:** Son editores de notas basados en Markdown que utilizan nativamente los enlaces [[ ]]. La combinación ideal es: Escribes y organizas tus ideas visualmente en Obsidian, y luego usas Graphify para procesar esa bóveda y exportarla a la web o a una IA.
+
+### B. Para Automatización y Alojamiento (CI/CD)
+* **GitHub Actions:** En lugar de correr los comandos 
+px @nodesify/graphify run manualmente en PowerShell, puedes configurar un "Action" en GitHub. Así, cada vez que subas un archivo Markdown nuevo, los servidores de GitHub ejecutan Graphify automáticamente y actualizan el HTML.
+* **GitHub Pages / Vercel:** Sirven para tomar los archivos graph.html y la carpeta wiki/ generados por Graphify y publicarlos gratuitamente como un sitio web navegable en internet.
+
+### C. Para Inteligencia Artificial (Downstream)
+* **LlamaIndex / LangChain:** Librerías de Python/TypeScript para crear IAs. Estas librerías pueden leer el archivo graph.json que genera Graphify para hacer *Graph-RAG*. Así, puedes construir tu propio "NotebookLM" privado y personalizado.
+* **Gephi:** Si el archivo graph.json es inmenso (ej. miles de nodos), herramientas académicas como Gephi pueden leerlo para hacer análisis de red complejos (detectar cuáles son los nodos más críticos, cuellos de botella, etc.).
