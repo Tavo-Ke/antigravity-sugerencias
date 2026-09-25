@@ -29,3 +29,19 @@ En proyectos de programación gigantes, los desarrolladores usan Graphify para q
 
 ---
 *Documento generado automáticamente para el repositorio antigravity-sugerencias.*
+
+## 3. Graphify vs NotebookLM (Google)
+
+Es común preguntarse si Graphify compite con herramientas como **NotebookLM**. La respuesta es que **no compiten, sino que resuelven problemas completamente distintos para públicos distintos**. No es que uno sea "mejor", sino que son para casos de uso diferentes:
+
+### NotebookLM (El Analista Inteligente)
+- **Público:** Estudiantes, investigadores, escritores, usuarios finales.
+- **Cómo funciona:** Subes PDFs o documentos y utiliza la inmensa ventana de contexto de Gemini 1.5 Pro para "leer" y entender absolutamente todo el contenido a nivel semántico profundo.
+- **Fortaleza:** Entiende las ideas. No necesita que tú le pongas enlaces [[ ]]. Tú le subes un PDF y él deduce las conexiones por sí solo, te genera guías de estudio, te responde preguntas citando la página exacta, y hasta te genera un podcast (Audio Overview) debatiendo el tema.
+- **Cuándo es mejor:** Si quieres estudiar para un examen, analizar contratos legales, o chatear con tus documentos sin programar nada.
+
+### Graphify (El Cartógrafo Técnico)
+- **Público:** Desarrolladores, Arquitectos de Software, usuarios de Obsidian/PKM.
+- **Cómo funciona:** Es una herramienta de línea de comandos (CLI) que mapea metadatos, enlaces explícitos y estructuras de carpetas.
+- **Fortaleza:** Mapea la estructura. No "entiende" la filosofía del texto, sino que construye un mapa (grafo) exacto de cómo se relaciona el Archivo A con el Archivo B para ahorrar costos (tokens) cuando programas tus propias IAs, o para generar sitios web estáticos y mapas visuales interactivos.
+- **Cuándo es mejor:** Si estás construyendo tu propia aplicación de IA, documentando código de programación, o quieres exportar tus apuntes de Obsidian a una página web pública.
