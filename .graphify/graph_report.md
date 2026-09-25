@@ -1,6 +1,6 @@
 # Graph Report
 
-**Nodes:** 91 | **Edges:** 80 | **Communities:** 23 | **Modularity:** 0.806
+**Nodes:** 97 | **Edges:** 85 | **Communities:** 24 | **Modularity:** 0.817
 
 _Built by graphify v0.8.0._
 
@@ -11,13 +11,13 @@ _Built by graphify v0.8.0._
 - **Graph Report** (8 nodes, cohesion 1.00)
 - **REGISTRO_ACTUALIZACION_VAULT.md** (7 nodes, cohesion 1.00)
 - **📚 Historial de Notas y Tips Registrados** (6 nodes, cohesion 0.83)
+- **Registro de Actividad: Procesamiento de "Activo, Pasivo y Patrimonio"** (6 nodes, cohesion 1.00)
 - **🚀 Antigravity - Registro de Notas, Tips y Herramientas** (5 nodes, cohesion 1.00)
 - **Guía y Prompt para Ecosistemas Inteligentes (Obsidian + Graphify + GitHub + MCP)** (5 nodes, cohesion 1.00)
 - **2. ¿Cuál es el "Uso Real" de Graphify?** (4 nodes, cohesion 0.75)
 - **4. ¿Con qué herramientas se complementa Graphify?** (4 nodes, cohesion 0.75)
-- **Prompt de Auto-Documentación (Regla de Sistema)** (4 nodes, cohesion 1.00)
 
-... and 13 more communities (see the MCP list_communities tool).
+... and 14 more communities (see the MCP list_communities tool).
 
 ## Key Files
 
@@ -29,8 +29,8 @@ _Built by graphify v0.8.0._
 - **limites_y_continuidad/graph_report.md** (14 edge endpoints)
 - **docs/REGISTRO_ACTUALIZACION_VAULT.md** (12 edge endpoints)
 - **procesos/INSTALACIONES_Y_CONSULTAS.md** (12 edge endpoints)
+- **docs/REGISTRO_PROCESAMIENTO_CONTABILIDAD.md** (10 edge endpoints)
 - **README.md** (8 edge endpoints)
-- **docs/PROMPT_ECOSISTEMA_OBSIDIAN.md** (8 edge endpoints)
 
 ## Hub Nodes (God Nodes)
 
@@ -39,11 +39,11 @@ _Built by graphify v0.8.0._
 - **📚 Historial de Notas y Tips Registrados** (degree: 6, community: 📚 Historial de Notas y Tips Registrados)
 - **Análisis y Casos de Uso Reales de Graphify** (degree: 5, community: Análisis y Casos de Uso Reales de Graphify)
 - **REGISTRO_ACTUALIZACION_VAULT.md** (degree: 5, community: REGISTRO_ACTUALIZACION_VAULT.md)
+- **Registro de Actividad: Procesamiento de "Activo, Pasivo y Patrimonio"** (degree: 5, community: Registro de Actividad: Procesamiento de "Activo, Pasivo y Patrimonio")
 - **🚀 Antigravity - Registro de Notas, Tips y Herramientas** (degree: 4, community: 🚀 Antigravity - Registro de Notas, Tips y Herramientas)
 - **AUTOMATIZACION.md** (degree: 4, community: AUTOMATIZACION.md)
 - **⚙️ Arquitectura y Programación del Guardado Automático** (degree: 4, community: AUTOMATIZACION.md)
 - **2. ¿Cuál es el "Uso Real" de Graphify?** (degree: 4, community: 2. ¿Cuál es el "Uso Real" de Graphify?)
-- **4. ¿Con qué herramientas se complementa Graphify?** (degree: 4, community: 4. ¿Con qué herramientas se complementa Graphify?)
 
 ## Surprising Connections
 
@@ -65,4 +65,4 @@ Top 11 of the cross-community edges, ranked by novelty (bigger, more cohesive co
 
 - Why does Graph Report have 7 connections — shared core or coupling problem?
 - 💡 Registro Global de Notas, Tips y Conexiones de Herramientas contains 📚 Historial de Notas y Tips Registrados crosses a community boundary - intentional or accidental coupling?
-- What are the responsibilities of the 23 communities?
+- What are the responsibilities of the 24 communities?

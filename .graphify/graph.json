@@ -639,11 +639,51 @@
       "source": "docs_registro_actualizacion_vault::2_inyectar_físicas_barnes_hut_y_estilos_css",
       "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/docs/REGISTRO_ACTUALIZACION_VAULT.md",
       "target": "docs_registro_actualizacion_vault::4_cómo_funciona"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "docs_registro_procesamiento_contabilidad",
+      "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/docs/REGISTRO_PROCESAMIENTO_CONTABILIDAD.md",
+      "target": "docs_registro_procesamiento_contabilidad::registro_de_actividad_procesamiento_de_activo_pasivo_y_patrimonio"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "docs_registro_procesamiento_contabilidad::registro_de_actividad_procesamiento_de_activo_pasivo_y_patrimonio",
+      "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/docs/REGISTRO_PROCESAMIENTO_CONTABILIDAD.md",
+      "target": "docs_registro_procesamiento_contabilidad::1_objetivo"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "docs_registro_procesamiento_contabilidad::registro_de_actividad_procesamiento_de_activo_pasivo_y_patrimonio",
+      "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/docs/REGISTRO_PROCESAMIENTO_CONTABILIDAD.md",
+      "target": "docs_registro_procesamiento_contabilidad::2_archivos_modificados_creados"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "docs_registro_procesamiento_contabilidad::registro_de_actividad_procesamiento_de_activo_pasivo_y_patrimonio",
+      "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/docs/REGISTRO_PROCESAMIENTO_CONTABILIDAD.md",
+      "target": "docs_registro_procesamiento_contabilidad::3_comandos_utilizados"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "docs_registro_procesamiento_contabilidad::registro_de_actividad_procesamiento_de_activo_pasivo_y_patrimonio",
+      "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/docs/REGISTRO_PROCESAMIENTO_CONTABILIDAD.md",
+      "target": "docs_registro_procesamiento_contabilidad::4_cómo_funciona"
     }
   ],
   "nodes": [
     {
-      "community": 19,
+      "community": 20,
       "docstring": null,
       "file_type": "document",
       "id": "procesos_instalaciones_y_consultas",
@@ -653,7 +693,7 @@
       "source_line": null
     },
     {
-      "community": 19,
+      "community": 20,
       "docstring": null,
       "file_type": "document",
       "id": "procesos_instalaciones_y_consultas::registro_de_procesos_consultas_e_instalaciones",
@@ -663,7 +703,7 @@
       "source_line": 1
     },
     {
-      "community": 20,
+      "community": 21,
       "docstring": null,
       "file_type": "document",
       "id": "procesos_instalaciones_y_consultas::1_registro_de_instalaciones_realizadas",
@@ -673,7 +713,7 @@
       "source_line": 7
     },
     {
-      "community": 20,
+      "community": 21,
       "docstring": null,
       "file_type": "document",
       "id": "procesos_instalaciones_y_consultas::instalación_de_graphify_nodesify_graphify",
@@ -683,7 +723,7 @@
       "source_line": 9
     },
     {
-      "community": 19,
+      "community": 20,
       "docstring": null,
       "file_type": "document",
       "id": "procesos_instalaciones_y_consultas::2_auditoría_de_consultas_y_comandos_ejecutados",
@@ -693,7 +733,7 @@
       "source_line": 25
     },
     {
-      "community": 21,
+      "community": 22,
       "docstring": null,
       "file_type": "document",
       "id": "procesos_instalaciones_y_consultas::3_caso_práctico_grafo_de_conocimiento_y_ejercicios_resueltos",
@@ -703,7 +743,7 @@
       "source_line": 39
     },
     {
-      "community": 21,
+      "community": 22,
       "docstring": null,
       "file_type": "document",
       "id": "procesos_instalaciones_y_consultas::resultados_de_graphify",
@@ -803,7 +843,7 @@
       "source_line": 53
     },
     {
-      "community": 18,
+      "community": 19,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_graph_report",
@@ -813,7 +853,7 @@
       "source_line": null
     },
     {
-      "community": 18,
+      "community": 19,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_graph_report::graph_report",
@@ -823,7 +863,7 @@
       "source_line": 1
     },
     {
-      "community": 18,
+      "community": 19,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_graph_report::communities",
@@ -833,7 +873,7 @@
       "source_line": 7
     },
     {
-      "community": 18,
+      "community": 19,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_graph_report::key_files",
@@ -843,7 +883,7 @@
       "source_line": 17
     },
     {
-      "community": 18,
+      "community": 19,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_graph_report::hub_nodes_god_nodes",
@@ -853,7 +893,7 @@
       "source_line": 24
     },
     {
-      "community": 18,
+      "community": 19,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_graph_report::surprising_connections",
@@ -863,7 +903,7 @@
       "source_line": 37
     },
     {
-      "community": 18,
+      "community": 19,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_graph_report::merged_duplicates",
@@ -873,7 +913,7 @@
       "source_line": 45
     },
     {
-      "community": 18,
+      "community": 19,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_graph_report::suggested_questions",
@@ -883,7 +923,7 @@
       "source_line": 49
     },
     {
-      "community": 14,
+      "community": 15,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_04_ejercicios_resueltos_capitulo7",
@@ -893,7 +933,7 @@
       "source_line": null
     },
     {
-      "community": 14,
+      "community": 15,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_04_ejercicios_resueltos_capitulo7::guía_completa_de_ejercicios_resueltos_capítulo_7_límites_y_continuidad",
@@ -903,7 +943,7 @@
       "source_line": 1
     },
     {
-      "community": 15,
+      "community": 16,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_04_ejercicios_resueltos_capitulo7::1_cálculo_de_límites_indeterminados_pág_32_33",
@@ -913,7 +953,7 @@
       "source_line": 7
     },
     {
-      "community": 15,
+      "community": 16,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_04_ejercicios_resueltos_capitulo7::ejercicio_1a",
@@ -923,7 +963,7 @@
       "source_line": 9
     },
     {
-      "community": 15,
+      "community": 16,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_04_ejercicios_resueltos_capitulo7::ejercicio_2d",
@@ -933,7 +973,7 @@
       "source_line": 23
     },
     {
-      "community": 16,
+      "community": 17,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_04_ejercicios_resueltos_capitulo7::2_continuidad_y_cálculo_de_parámetros_pág_34",
@@ -943,7 +983,7 @@
       "source_line": 33
     },
     {
-      "community": 16,
+      "community": 17,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_04_ejercicios_resueltos_capitulo7::ejercicio_11",
@@ -953,7 +993,7 @@
       "source_line": 35
     },
     {
-      "community": 17,
+      "community": 18,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_04_ejercicios_resueltos_capitulo7::3_examen_de_autoevaluación_resuelto_pág_35",
@@ -963,7 +1003,7 @@
       "source_line": 53
     },
     {
-      "community": 17,
+      "community": 18,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_04_ejercicios_resueltos_capitulo7::pregunta_7",
@@ -973,7 +1013,7 @@
       "source_line": 55
     },
     {
-      "community": 22,
+      "community": 23,
       "docstring": null,
       "file_type": "code",
       "id": "scripts_apply_styles",
@@ -983,7 +1023,7 @@
       "source_line": null
     },
     {
-      "community": 22,
+      "community": 23,
       "docstring": null,
       "file_type": "reference",
       "id": "str::graph_html",
@@ -1551,6 +1591,66 @@
       "signature": null,
       "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/docs/REGISTRO_ACTUALIZACION_VAULT.md",
       "source_line": 26
+    },
+    {
+      "community": 14,
+      "docstring": null,
+      "file_type": "document",
+      "id": "docs_registro_procesamiento_contabilidad",
+      "label": "REGISTRO_PROCESAMIENTO_CONTABILIDAD.md",
+      "signature": null,
+      "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/docs/REGISTRO_PROCESAMIENTO_CONTABILIDAD.md",
+      "source_line": null
+    },
+    {
+      "community": 14,
+      "docstring": null,
+      "file_type": "document",
+      "id": "docs_registro_procesamiento_contabilidad::registro_de_actividad_procesamiento_de_activo_pasivo_y_patrimonio",
+      "label": "Registro de Actividad: Procesamiento de \"Activo, Pasivo y Patrimonio\"",
+      "signature": null,
+      "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/docs/REGISTRO_PROCESAMIENTO_CONTABILIDAD.md",
+      "source_line": 1
+    },
+    {
+      "community": 14,
+      "docstring": null,
+      "file_type": "document",
+      "id": "docs_registro_procesamiento_contabilidad::1_objetivo",
+      "label": "1. Objetivo",
+      "signature": null,
+      "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/docs/REGISTRO_PROCESAMIENTO_CONTABILIDAD.md",
+      "source_line": 5
+    },
+    {
+      "community": 14,
+      "docstring": null,
+      "file_type": "document",
+      "id": "docs_registro_procesamiento_contabilidad::2_archivos_modificados_creados",
+      "label": "2. Archivos Modificados/Creados",
+      "signature": null,
+      "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/docs/REGISTRO_PROCESAMIENTO_CONTABILIDAD.md",
+      "source_line": 8
+    },
+    {
+      "community": 14,
+      "docstring": null,
+      "file_type": "document",
+      "id": "docs_registro_procesamiento_contabilidad::3_comandos_utilizados",
+      "label": "3. Comandos Utilizados",
+      "signature": null,
+      "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/docs/REGISTRO_PROCESAMIENTO_CONTABILIDAD.md",
+      "source_line": 12
+    },
+    {
+      "community": 14,
+      "docstring": null,
+      "file_type": "document",
+      "id": "docs_registro_procesamiento_contabilidad::4_cómo_funciona",
+      "label": "4. Cómo Funciona",
+      "signature": null,
+      "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/docs/REGISTRO_PROCESAMIENTO_CONTABILIDAD.md",
+      "source_line": 22
     }
   ]
 }
