@@ -1,0 +1,40 @@
+name: Automate Graphify
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '**.md'
+      - '!.graphify/**'
+      - '!graph_report.md'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          
+      - name: Build Knowledge Graph
+        run: |
+          npx @nodesify/graphify run .
+          npx @nodesify/graphify export --format html
+          
+      - name: Apply Custom Visual Styles
+        run: node scripts/apply_styles.js
+          
+      - name: Commit Graph changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "auto: 🕸️ actualizacion automatica del grafo por GitHub Actions"
+          file_pattern: 'graph.html tree.html .graphify/**'
