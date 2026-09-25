@@ -567,11 +567,35 @@
       "source": "docs_prompt_ecosistema_obsidian::guía_y_prompt_para_ecosistemas_inteligentes_obsidian_graphify_github_mcp",
       "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/docs/PROMPT_ECOSISTEMA_OBSIDIAN.md",
       "target": "docs_prompt_ecosistema_obsidian::notas_técnicas_para_el_usuario"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "docs_prompt_auto_documentacion",
+      "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/docs/PROMPT_AUTO_DOCUMENTACION.md",
+      "target": "docs_prompt_auto_documentacion::prompt_de_auto_documentación_regla_de_sistema"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "docs_prompt_auto_documentacion::prompt_de_auto_documentación_regla_de_sistema",
+      "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/docs/PROMPT_AUTO_DOCUMENTACION.md",
+      "target": "docs_prompt_auto_documentacion::el_prompt_instrucción_para_la_ia"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "docs_prompt_auto_documentacion::prompt_de_auto_documentación_regla_de_sistema",
+      "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/docs/PROMPT_AUTO_DOCUMENTACION.md",
+      "target": "docs_prompt_auto_documentacion::por_qué_usar_este_prompt"
     }
   ],
   "nodes": [
     {
-      "community": 17,
+      "community": 18,
       "docstring": null,
       "file_type": "document",
       "id": "procesos_instalaciones_y_consultas",
@@ -581,7 +605,7 @@
       "source_line": null
     },
     {
-      "community": 17,
+      "community": 18,
       "docstring": null,
       "file_type": "document",
       "id": "procesos_instalaciones_y_consultas::registro_de_procesos_consultas_e_instalaciones",
@@ -591,7 +615,7 @@
       "source_line": 1
     },
     {
-      "community": 18,
+      "community": 19,
       "docstring": null,
       "file_type": "document",
       "id": "procesos_instalaciones_y_consultas::1_registro_de_instalaciones_realizadas",
@@ -601,7 +625,7 @@
       "source_line": 7
     },
     {
-      "community": 18,
+      "community": 19,
       "docstring": null,
       "file_type": "document",
       "id": "procesos_instalaciones_y_consultas::instalación_de_graphify_nodesify_graphify",
@@ -611,7 +635,7 @@
       "source_line": 9
     },
     {
-      "community": 17,
+      "community": 18,
       "docstring": null,
       "file_type": "document",
       "id": "procesos_instalaciones_y_consultas::2_auditoría_de_consultas_y_comandos_ejecutados",
@@ -621,7 +645,7 @@
       "source_line": 25
     },
     {
-      "community": 19,
+      "community": 20,
       "docstring": null,
       "file_type": "document",
       "id": "procesos_instalaciones_y_consultas::3_caso_práctico_grafo_de_conocimiento_y_ejercicios_resueltos",
@@ -631,7 +655,7 @@
       "source_line": 39
     },
     {
-      "community": 19,
+      "community": 20,
       "docstring": null,
       "file_type": "document",
       "id": "procesos_instalaciones_y_consultas::resultados_de_graphify",
@@ -731,7 +755,7 @@
       "source_line": 53
     },
     {
-      "community": 16,
+      "community": 17,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_graph_report",
@@ -741,7 +765,7 @@
       "source_line": null
     },
     {
-      "community": 16,
+      "community": 17,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_graph_report::graph_report",
@@ -751,7 +775,7 @@
       "source_line": 1
     },
     {
-      "community": 16,
+      "community": 17,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_graph_report::communities",
@@ -761,7 +785,7 @@
       "source_line": 7
     },
     {
-      "community": 16,
+      "community": 17,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_graph_report::key_files",
@@ -771,7 +795,7 @@
       "source_line": 17
     },
     {
-      "community": 16,
+      "community": 17,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_graph_report::hub_nodes_god_nodes",
@@ -781,7 +805,7 @@
       "source_line": 24
     },
     {
-      "community": 16,
+      "community": 17,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_graph_report::surprising_connections",
@@ -791,7 +815,7 @@
       "source_line": 37
     },
     {
-      "community": 16,
+      "community": 17,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_graph_report::merged_duplicates",
@@ -801,7 +825,7 @@
       "source_line": 45
     },
     {
-      "community": 16,
+      "community": 17,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_graph_report::suggested_questions",
@@ -811,7 +835,7 @@
       "source_line": 49
     },
     {
-      "community": 12,
+      "community": 13,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_04_ejercicios_resueltos_capitulo7",
@@ -821,7 +845,7 @@
       "source_line": null
     },
     {
-      "community": 12,
+      "community": 13,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_04_ejercicios_resueltos_capitulo7::guía_completa_de_ejercicios_resueltos_capítulo_7_límites_y_continuidad",
@@ -831,7 +855,7 @@
       "source_line": 1
     },
     {
-      "community": 13,
+      "community": 14,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_04_ejercicios_resueltos_capitulo7::1_cálculo_de_límites_indeterminados_pág_32_33",
@@ -841,7 +865,7 @@
       "source_line": 7
     },
     {
-      "community": 13,
+      "community": 14,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_04_ejercicios_resueltos_capitulo7::ejercicio_1a",
@@ -851,7 +875,7 @@
       "source_line": 9
     },
     {
-      "community": 13,
+      "community": 14,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_04_ejercicios_resueltos_capitulo7::ejercicio_2d",
@@ -861,7 +885,7 @@
       "source_line": 23
     },
     {
-      "community": 14,
+      "community": 15,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_04_ejercicios_resueltos_capitulo7::2_continuidad_y_cálculo_de_parámetros_pág_34",
@@ -871,7 +895,7 @@
       "source_line": 33
     },
     {
-      "community": 14,
+      "community": 15,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_04_ejercicios_resueltos_capitulo7::ejercicio_11",
@@ -881,7 +905,7 @@
       "source_line": 35
     },
     {
-      "community": 15,
+      "community": 16,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_04_ejercicios_resueltos_capitulo7::3_examen_de_autoevaluación_resuelto_pág_35",
@@ -891,7 +915,7 @@
       "source_line": 53
     },
     {
-      "community": 15,
+      "community": 16,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_04_ejercicios_resueltos_capitulo7::pregunta_7",
@@ -901,7 +925,7 @@
       "source_line": 55
     },
     {
-      "community": 20,
+      "community": 21,
       "docstring": null,
       "file_type": "code",
       "id": "scripts_apply_styles",
@@ -911,7 +935,7 @@
       "source_line": null
     },
     {
-      "community": 20,
+      "community": 21,
       "docstring": null,
       "file_type": "reference",
       "id": "str::graph_html",
@@ -1321,7 +1345,7 @@
       "source_line": 61
     },
     {
-      "community": 11,
+      "community": 12,
       "docstring": null,
       "file_type": "document",
       "id": "docs_prompt_ecosistema_obsidian",
@@ -1331,7 +1355,7 @@
       "source_line": null
     },
     {
-      "community": 11,
+      "community": 12,
       "docstring": null,
       "file_type": "document",
       "id": "docs_prompt_ecosistema_obsidian::guía_y_prompt_para_ecosistemas_inteligentes_obsidian_graphify_github_mcp",
@@ -1341,7 +1365,7 @@
       "source_line": 1
     },
     {
-      "community": 11,
+      "community": 12,
       "docstring": null,
       "file_type": "document",
       "id": "docs_prompt_ecosistema_obsidian::la_arquitectura_del_ecosistema",
@@ -1351,7 +1375,7 @@
       "source_line": 7
     },
     {
-      "community": 11,
+      "community": 12,
       "docstring": null,
       "file_type": "document",
       "id": "docs_prompt_ecosistema_obsidian::el_prompt_estructurado_copia_y_pega",
@@ -1361,7 +1385,7 @@
       "source_line": 17
     },
     {
-      "community": 11,
+      "community": 12,
       "docstring": null,
       "file_type": "document",
       "id": "docs_prompt_ecosistema_obsidian::notas_técnicas_para_el_usuario",
@@ -1369,6 +1393,46 @@
       "signature": null,
       "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/docs/PROMPT_ECOSISTEMA_OBSIDIAN.md",
       "source_line": 38
+    },
+    {
+      "community": 11,
+      "docstring": null,
+      "file_type": "document",
+      "id": "docs_prompt_auto_documentacion",
+      "label": "PROMPT_AUTO_DOCUMENTACION.md",
+      "signature": null,
+      "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/docs/PROMPT_AUTO_DOCUMENTACION.md",
+      "source_line": null
+    },
+    {
+      "community": 11,
+      "docstring": null,
+      "file_type": "document",
+      "id": "docs_prompt_auto_documentacion::prompt_de_auto_documentación_regla_de_sistema",
+      "label": "Prompt de Auto-Documentación (Regla de Sistema)",
+      "signature": null,
+      "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/docs/PROMPT_AUTO_DOCUMENTACION.md",
+      "source_line": 1
+    },
+    {
+      "community": 11,
+      "docstring": null,
+      "file_type": "document",
+      "id": "docs_prompt_auto_documentacion::el_prompt_instrucción_para_la_ia",
+      "label": "🤖 El Prompt (Instrucción para la IA)",
+      "signature": null,
+      "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/docs/PROMPT_AUTO_DOCUMENTACION.md",
+      "source_line": 7
+    },
+    {
+      "community": 11,
+      "docstring": null,
+      "file_type": "document",
+      "id": "docs_prompt_auto_documentacion::por_qué_usar_este_prompt",
+      "label": "💡 ¿Por qué usar este prompt?",
+      "signature": null,
+      "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/docs/PROMPT_AUTO_DOCUMENTACION.md",
+      "source_line": 27
     }
   ]
 }
