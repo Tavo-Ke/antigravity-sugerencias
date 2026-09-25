@@ -27,24 +27,26 @@ Este documento forma parte de la carpeta `procesos/` y sirve como bitácora deta
 | Fecha | Herramienta / CLI | Comando Ejecutado | Resultado |
 | :--- | :--- | :--- | :--- |
 | 24/09/2026 | `Node.js / npm` | `node -v; npm -v` | Detectado Node `v22.14.0`, npm `10.9.2`. |
-| 24/09/2026 | `npm` | `npm.cmd search graphify` | Búsqueda exitosa de paquetes relacionados con Graphify. |
 | 24/09/2026 | `npm` | `npm install -g @nodesify/graphify` | Instalación global completada exitosamente. |
-| 24/09/2026 | `npx` | `npx @nodesify/graphify --help` | Verificación de CLI y lista de comandos de Graphify. |
-| 24/09/2026 | `Graphify CLI` | `npx @nodesify/graphify run "limites_y_continuidad"` | Generación de gráfico de conocimiento de 15 nodos y 12 aristas en 3 comunidades. |
-| 24/09/2026 | `Graphify CLI` | `npx @nodesify/graphify query "que tipos..."` | Consulta de grafo en profundidad BFS=2 retornando 10 nodos relacionados. |
+| 24/09/2026 | `Graphify CLI` | `npx @nodesify/graphify run "limites_y_continuidad"` | Generación de gráfico de conocimiento (24 nodos y 21 aristas en 7 comunidades). |
+| 24/09/2026 | `Graphify CLI` | `npx @nodesify/graphify wiki` | Exportación de 17 artículos de Wikipedia en `.graphify/wiki`. |
+| 24/09/2026 | `Graphify CLI` | `npx @nodesify/graphify tree` | Exportación de árbol HTML navegable en `tree.html`. |
+| 24/09/2026 | `Graphify CLI` | `npx @nodesify/graphify export --format html` | Exportación de grafo visual en `graph.html`. |
 | 24/09/2026 | `PowerShell` | `Invoke-RestMethod (GitHub API)` | Sincronización automática de archivos en GitHub. |
 
 ---
 
-## 🌐 3. Caso Práctico: Grafo de Conocimiento de "Límites y Continuidad"
+## 🌐 3. Caso Práctico: Grafo de Conocimiento y Ejercicios Resueltos
 
-Se estructuraron las notas del capítulo de Matemáticas I en la carpeta `limites_y_continuidad/`:
+Se estructuraron las notas y la guía de ejercicios del capítulo de Matemáticas I en la carpeta `limites_y_continuidad/`:
 - `01_concepto_de_limite.md`
 - `02_calculo_de_limites.md`
 - `03_continuidad_de_funciones.md`
+- `04_ejercicios_resueltos_capitulo7.md`
 
 ### Resultados de Graphify:
-- **Nodos agregados:** 15
-- **Aristas (Edges):** 12
-- **Comunidades de conocimiento:** 3
-- **Resultado de Consulta BFS (Indeterminaciones):** Conexión exitosa entre los métodos de resolución de $0/0$, $\infty/\infty$, $\infty-\infty$ y $1^\infty$.
+- **Nodos agregados:** 24
+- **Aristas (Edges):** 21
+- **Comunidades de conocimiento:** 7
+- **Eficiencia de consulta:** 1.8x Token Reduction.
+- **Visualización:** Wiki Markdown (17 artículos) y Árboles HTML (`tree.html` / `graph.html`).
