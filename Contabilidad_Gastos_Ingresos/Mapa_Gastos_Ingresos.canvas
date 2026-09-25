@@ -1,0 +1,6 @@
+﻿{
+  "nodes": [
+    {"id": "c1", "type": "file", "file": "Contabilidad_Gastos_Ingresos/1_Teoria_Base.md", "x": -500, "y": 0, "width": 450, "height": 600, "color": "4"}
+  ],
+  "edges": []
+}
