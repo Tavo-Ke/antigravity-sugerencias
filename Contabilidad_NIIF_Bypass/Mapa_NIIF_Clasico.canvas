@@ -1,0 +1,13 @@
+﻿{
+  "nodes": [
+    {"id": "c1", "type": "file", "file": "Contabilidad_NIIF_Bypass/Apunte_NIIF_Clasico.md", "x": -500, "y": 0, "width": 450, "height": 600, "color": "6"},
+    {"id": "c2", "type": "text", "text": "## 🇬🇧 IASB (Londres)\nCreadores de las NIIF para hablar un solo idioma financiero global.", "x": 50, "y": -200, "width": 300, "height": 150, "color": "3"},
+    {"id": "c3", "type": "text", "text": "## 🇵🇪 SMV y Perú\nObligatorio para empresas con ingresos > 3000 UIT. Oficializado por el Consejo Normativo.", "x": 400, "y": -200, "width": 300, "height": 150, "color": "3"},
+    {"id": "c4", "type": "text", "text": "## 📊 Dinámica NIIF\n1. Reconocimiento\n2. Medición (Valor Razonable)\n3. Presentación\n4. Revelación", "x": 50, "y": 150, "width": 300, "height": 180, "color": "4"}
+  ],
+  "edges": [
+    {"id": "e1", "fromNode": "c1", "fromSide": "right", "toNode": "c2", "toSide": "left", "color": "3"},
+    {"id": "e2", "fromNode": "c2", "fromSide": "right", "toNode": "c3", "toSide": "left", "color": "3"},
+    {"id": "e3", "fromNode": "c1", "fromSide": "right", "toNode": "c4", "toSide": "left", "color": "4"}
+  ]
+}
