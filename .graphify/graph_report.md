@@ -1,6 +1,6 @@
 # Graph Report
 
-**Nodes:** 115 | **Edges:** 99 | **Communities:** 30 | **Modularity:** 0.825
+**Nodes:** 123 | **Edges:** 106 | **Communities:** 31 | **Modularity:** 0.835
 
 _Built by graphify v0.8.0._
 
@@ -8,6 +8,7 @@ _Built by graphify v0.8.0._
 
 - **Directiva de Documentación Automática y Gestión de Conocimiento** (8 nodes, cohesion 0.88)
 - **AUTOMATIZACION.md** (8 nodes, cohesion 0.88)
+- **Regla Global: Flujo Maestro de Procesamiento y Graphify** (8 nodes, cohesion 1.00)
 - **Graph Report** (8 nodes, cohesion 1.00)
 - **REGISTRO_ACTUALIZACION_VAULT.md** (7 nodes, cohesion 1.00)
 - **📚 Historial de Notas y Tips Registrados** (6 nodes, cohesion 0.83)
@@ -15,9 +16,8 @@ _Built by graphify v0.8.0._
 - **🚀 Antigravity - Registro de Notas, Tips y Herramientas** (5 nodes, cohesion 1.00)
 - **Guía y Prompt para Ecosistemas Inteligentes (Obsidian + Graphify + GitHub + MCP)** (5 nodes, cohesion 1.00)
 - **1. Conceptos Fundamentales** (4 nodes, cohesion 0.75)
-- **2. ¿Cuál es el "Uso Real" de Graphify?** (4 nodes, cohesion 0.75)
 
-... and 20 more communities (see the MCP list_communities tool).
+... and 21 more communities (see the MCP list_communities tool).
 
 ## Key Files
 
@@ -26,14 +26,15 @@ _Built by graphify v0.8.0._
 - **PROMPT_GUIA.md** (18 edge endpoints)
 - **limites_y_continuidad/04_ejercicios_resueltos_capitulo7.md** (18 edge endpoints)
 - **SUGERENCIAS.md** (16 edge endpoints)
+- **docs/PROMPT_FLUJO_GRAPHIFY_MAESTRO.md** (14 edge endpoints)
 - **limites_y_continuidad/graph_report.md** (14 edge endpoints)
 - **Contabilidad_Activo_Pasivo/Apuntes_Contabilidad.md** (12 edge endpoints)
 - **docs/REGISTRO_ACTUALIZACION_VAULT.md** (12 edge endpoints)
 - **procesos/INSTALACIONES_Y_CONSULTAS.md** (12 edge endpoints)
-- **docs/REGISTRO_PROCESAMIENTO_CONTABILIDAD.md** (10 edge endpoints)
 
 ## Hub Nodes (God Nodes)
 
+- **Regla Global: Flujo Maestro de Procesamiento y Graphify** (degree: 7, community: Regla Global: Flujo Maestro de Procesamiento y Graphify)
 - **Graph Report** (degree: 7, community: Graph Report)
 - **Directiva de Documentación Automática y Gestión de Conocimiento** (degree: 6, community: Directiva de Documentación Automática y Gestión de Conocimiento)
 - **📚 Historial de Notas y Tips Registrados** (degree: 6, community: 📚 Historial de Notas y Tips Registrados)
@@ -43,7 +44,6 @@ _Built by graphify v0.8.0._
 - **🚀 Antigravity - Registro de Notas, Tips y Herramientas** (degree: 4, community: 🚀 Antigravity - Registro de Notas, Tips y Herramientas)
 - **1. Conceptos Fundamentales** (degree: 4, community: 1. Conceptos Fundamentales)
 - **AUTOMATIZACION.md** (degree: 4, community: AUTOMATIZACION.md)
-- **⚙️ Arquitectura y Programación del Guardado Automático** (degree: 4, community: AUTOMATIZACION.md)
 
 ## Surprising Connections
 
@@ -65,6 +65,6 @@ Top 13 of the cross-community edges, ranked by novelty (bigger, more cohesive co
 
 ## Suggested Questions
 
-- Why does Graph Report have 7 connections — shared core or coupling problem?
+- Why does Regla Global: Flujo Maestro de Procesamiento y Graphify have 7 connections — shared core or coupling problem?
 - 💡 Registro Global de Notas, Tips y Conexiones de Herramientas contains 📚 Historial de Notas y Tips Registrados crosses a community boundary - intentional or accidental coupling?
-- What are the responsibilities of the 30 communities?
+- What are the responsibilities of the 31 communities?
