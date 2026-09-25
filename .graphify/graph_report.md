@@ -1,12 +1,13 @@
 # Graph Report
 
-**Nodes:** 123 | **Edges:** 106 | **Communities:** 31 | **Modularity:** 0.835
+**Nodes:** 134 | **Edges:** 115 | **Communities:** 33 | **Modularity:** 0.847
 
 _Built by graphify v0.8.0._
 
 ## Communities
 
 - **Directiva de Documentación Automática y Gestión de Conocimiento** (8 nodes, cohesion 0.88)
+- **2. Enriquecimiento Web: Casos Prácticos (PCGE 2020)** (8 nodes, cohesion 1.00)
 - **AUTOMATIZACION.md** (8 nodes, cohesion 0.88)
 - **Regla Global: Flujo Maestro de Procesamiento y Graphify** (8 nodes, cohesion 1.00)
 - **Graph Report** (8 nodes, cohesion 1.00)
@@ -15,9 +16,8 @@ _Built by graphify v0.8.0._
 - **Registro de Actividad: Procesamiento de "Activo, Pasivo y Patrimonio"** (6 nodes, cohesion 1.00)
 - **🚀 Antigravity - Registro de Notas, Tips y Herramientas** (5 nodes, cohesion 1.00)
 - **Guía y Prompt para Ecosistemas Inteligentes (Obsidian + Graphify + GitHub + MCP)** (5 nodes, cohesion 1.00)
-- **1. Conceptos Fundamentales** (4 nodes, cohesion 0.75)
 
-... and 21 more communities (see the MCP list_communities tool).
+... and 23 more communities (see the MCP list_communities tool).
 
 ## Key Files
 
@@ -26,11 +26,11 @@ _Built by graphify v0.8.0._
 - **PROMPT_GUIA.md** (18 edge endpoints)
 - **limites_y_continuidad/04_ejercicios_resueltos_capitulo7.md** (18 edge endpoints)
 - **SUGERENCIAS.md** (16 edge endpoints)
+- **Contabilidad_PCGE_Sesion_12/Apuntes_PCGE.md** (14 edge endpoints)
 - **docs/PROMPT_FLUJO_GRAPHIFY_MAESTRO.md** (14 edge endpoints)
 - **limites_y_continuidad/graph_report.md** (14 edge endpoints)
 - **Contabilidad_Activo_Pasivo/Apuntes_Contabilidad.md** (12 edge endpoints)
 - **docs/REGISTRO_ACTUALIZACION_VAULT.md** (12 edge endpoints)
-- **procesos/INSTALACIONES_Y_CONSULTAS.md** (12 edge endpoints)
 
 ## Hub Nodes (God Nodes)
 
@@ -43,7 +43,7 @@ _Built by graphify v0.8.0._
 - **Registro de Actividad: Procesamiento de "Activo, Pasivo y Patrimonio"** (degree: 5, community: Registro de Actividad: Procesamiento de "Activo, Pasivo y Patrimonio")
 - **🚀 Antigravity - Registro de Notas, Tips y Herramientas** (degree: 4, community: 🚀 Antigravity - Registro de Notas, Tips y Herramientas)
 - **1. Conceptos Fundamentales** (degree: 4, community: 1. Conceptos Fundamentales)
-- **AUTOMATIZACION.md** (degree: 4, community: AUTOMATIZACION.md)
+- **2. Enriquecimiento Web: Casos Prácticos (PCGE 2020)** (degree: 4, community: 2. Enriquecimiento Web: Casos Prácticos (PCGE 2020))
 
 ## Surprising Connections
 
@@ -67,4 +67,4 @@ Top 13 of the cross-community edges, ranked by novelty (bigger, more cohesive co
 
 - Why does Regla Global: Flujo Maestro de Procesamiento y Graphify have 7 connections — shared core or coupling problem?
 - 💡 Registro Global de Notas, Tips y Conexiones de Herramientas contains 📚 Historial de Notas y Tips Registrados crosses a community boundary - intentional or accidental coupling?
-- What are the responsibilities of the 31 communities?
+- What are the responsibilities of the 33 communities?
