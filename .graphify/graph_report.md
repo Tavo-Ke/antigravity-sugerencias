@@ -1,6 +1,6 @@
 # Graph Report
 
-**Nodes:** 134 | **Edges:** 115 | **Communities:** 33 | **Modularity:** 0.847
+**Nodes:** 139 | **Edges:** 119 | **Communities:** 36 | **Modularity:** 0.845
 
 _Built by graphify v0.8.0._
 
@@ -17,7 +17,7 @@ _Built by graphify v0.8.0._
 - **🚀 Antigravity - Registro de Notas, Tips y Herramientas** (5 nodes, cohesion 1.00)
 - **Guía y Prompt para Ecosistemas Inteligentes (Obsidian + Graphify + GitHub + MCP)** (5 nodes, cohesion 1.00)
 
-... and 23 more communities (see the MCP list_communities tool).
+... and 26 more communities (see the MCP list_communities tool).
 
 ## Key Files
 
@@ -63,8 +63,12 @@ Top 13 of the cross-community edges, ranked by novelty (bigger, more cohesive co
 - **🛠️ Registro de Procesos, Consultas e Instalaciones** -> **📦 1. Registro de Instalaciones Realizadas** (contains) [🛠️ Registro de Procesos, Consultas e Instalaciones -> 📦 1. Registro de Instalaciones Realizadas] (score: 2.00)
 - **🛠️ Registro de Procesos, Consultas e Instalaciones** -> **🌐 3. Caso Práctico: Grafo de Conocimiento y Ejercicios Resueltos** (contains) [🛠️ Registro de Procesos, Consultas e Instalaciones -> 🌐 3. Caso Práctico: Grafo de Conocimiento y Ejercicios Resueltos] (score: 2.00)
 
+## Merged Duplicates
+
+1 near-duplicate node(s) merged into canonical entities.
+
 ## Suggested Questions
 
 - Why does Regla Global: Flujo Maestro de Procesamiento y Graphify have 7 connections — shared core or coupling problem?
 - 💡 Registro Global de Notas, Tips y Conexiones de Herramientas contains 📚 Historial de Notas y Tips Registrados crosses a community boundary - intentional or accidental coupling?
-- What are the responsibilities of the 33 communities?
+- What are the responsibilities of the 36 communities?
