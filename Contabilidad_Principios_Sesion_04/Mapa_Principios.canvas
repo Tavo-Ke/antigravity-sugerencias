@@ -1,0 +1,13 @@
+﻿{
+  "nodes": [
+    {"id": "doc_prin", "type": "file", "file": "Contabilidad_Principios_Sesion_04/Apuntes_Principios.md", "x": -400, "y": 0, "width": 450, "height": 500, "color": "4"},
+    {"id": "c_marcha", "type": "text", "text": "## 🏭 Negocio en Marcha\nLa empresa NO va a quebrar a corto plazo.\nEj: Depreciar maquinaria a largo plazo.", "x": 200, "y": -300, "width": 300, "height": 150, "color": "1"},
+    {"id": "c_devengado", "type": "text", "text": "## 📅 Devengado\nSe anota cuando PASA, no cuando se paga.\n*Impacto directo en SUNAT (IR)*", "x": 200, "y": 0, "width": 300, "height": 150, "color": "2"},
+    {"id": "c_doble", "type": "text", "text": "## ⚖️ Partida Doble\nActivo = Pasivo + Patrimonio\nSi entra S/1000 en mercadería, salen S/1000 del banco.", "x": 200, "y": 300, "width": 300, "height": 150, "color": "3"}
+  ],
+  "edges": [
+    {"id": "e1", "fromNode": "doc_prin", "fromSide": "right", "toNode": "c_marcha", "toSide": "left", "color": "1"},
+    {"id": "e2", "fromNode": "doc_prin", "fromSide": "right", "toNode": "c_devengado", "toSide": "left", "color": "2"},
+    {"id": "e3", "fromNode": "doc_prin", "fromSide": "right", "toNode": "c_doble", "toSide": "left", "color": "3"}
+  ]
+}
