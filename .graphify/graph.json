@@ -751,11 +751,51 @@
       "source": "tips_y_notas_ia_tip_manejo_archivos_pesados_github::tip_manejo_de_archivos_pesados_en_github_y_graphify",
       "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/Tips_y_Notas_IA/Tip_Manejo_Archivos_Pesados_GitHub.md",
       "target": "tips_y_notas_ia_tip_manejo_archivos_pesados_github::2_congelamiento_de_graphify"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "contabilidad_ecuacion_contable_sesion_10_ecuacion_contable",
+      "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/Contabilidad_Ecuacion_Contable/Sesion_10_Ecuacion_Contable.md",
+      "target": "contabilidad_ecuacion_contable_sesion_10_ecuacion_contable::sesión_10_la_ecuación_contable"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "contabilidad_ecuacion_contable_sesion_10_ecuacion_contable::sesión_10_la_ecuación_contable",
+      "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/Contabilidad_Ecuacion_Contable/Sesion_10_Ecuacion_Contable.md",
+      "target": "contabilidad_ecuacion_contable_sesion_10_ecuacion_contable::conceptos_clave"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "contabilidad_ecuacion_contable_sesion_10_ecuacion_contable::conceptos_clave",
+      "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/Contabilidad_Ecuacion_Contable/Sesion_10_Ecuacion_Contable.md",
+      "target": "contabilidad_ecuacion_contable_sesion_10_ecuacion_contable::lógica_de_la_partida_doble"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "contabilidad_ecuacion_contable_sesion_10_ecuacion_contable::sesión_10_la_ecuación_contable",
+      "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/Contabilidad_Ecuacion_Contable/Sesion_10_Ecuacion_Contable.md",
+      "target": "contabilidad_ecuacion_contable_sesion_10_ecuacion_contable::resolución_de_ejercicios_práctica_diapositiva_16"
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "docs_registro_flujo_ecuacion_contable",
+      "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/docs/REGISTRO_FLUJO_ECUACION_CONTABLE.md",
+      "target": "docs_registro_flujo_ecuacion_contable::auto_registro_flujo_de_ecuación_contable"
     }
   ],
   "nodes": [
     {
-      "community": 22,
+      "community": 25,
       "docstring": null,
       "file_type": "document",
       "id": "procesos_instalaciones_y_consultas",
@@ -765,7 +805,7 @@
       "source_line": null
     },
     {
-      "community": 22,
+      "community": 25,
       "docstring": null,
       "file_type": "document",
       "id": "procesos_instalaciones_y_consultas::registro_de_procesos_consultas_e_instalaciones",
@@ -775,7 +815,7 @@
       "source_line": 1
     },
     {
-      "community": 23,
+      "community": 26,
       "docstring": null,
       "file_type": "document",
       "id": "procesos_instalaciones_y_consultas::1_registro_de_instalaciones_realizadas",
@@ -785,7 +825,7 @@
       "source_line": 7
     },
     {
-      "community": 23,
+      "community": 26,
       "docstring": null,
       "file_type": "document",
       "id": "procesos_instalaciones_y_consultas::instalación_de_graphify_nodesify_graphify",
@@ -795,7 +835,7 @@
       "source_line": 9
     },
     {
-      "community": 22,
+      "community": 25,
       "docstring": null,
       "file_type": "document",
       "id": "procesos_instalaciones_y_consultas::2_auditoría_de_consultas_y_comandos_ejecutados",
@@ -805,7 +845,7 @@
       "source_line": 25
     },
     {
-      "community": 24,
+      "community": 27,
       "docstring": null,
       "file_type": "document",
       "id": "procesos_instalaciones_y_consultas::3_caso_práctico_grafo_de_conocimiento_y_ejercicios_resueltos",
@@ -815,7 +855,7 @@
       "source_line": 39
     },
     {
-      "community": 24,
+      "community": 27,
       "docstring": null,
       "file_type": "document",
       "id": "procesos_instalaciones_y_consultas::resultados_de_graphify",
@@ -915,7 +955,7 @@
       "source_line": 53
     },
     {
-      "community": 21,
+      "community": 24,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_graph_report",
@@ -925,7 +965,7 @@
       "source_line": null
     },
     {
-      "community": 21,
+      "community": 24,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_graph_report::graph_report",
@@ -935,7 +975,7 @@
       "source_line": 1
     },
     {
-      "community": 21,
+      "community": 24,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_graph_report::communities",
@@ -945,7 +985,7 @@
       "source_line": 7
     },
     {
-      "community": 21,
+      "community": 24,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_graph_report::key_files",
@@ -955,7 +995,7 @@
       "source_line": 17
     },
     {
-      "community": 21,
+      "community": 24,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_graph_report::hub_nodes_god_nodes",
@@ -965,7 +1005,7 @@
       "source_line": 24
     },
     {
-      "community": 21,
+      "community": 24,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_graph_report::surprising_connections",
@@ -975,7 +1015,7 @@
       "source_line": 37
     },
     {
-      "community": 21,
+      "community": 24,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_graph_report::merged_duplicates",
@@ -985,7 +1025,7 @@
       "source_line": 45
     },
     {
-      "community": 21,
+      "community": 24,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_graph_report::suggested_questions",
@@ -995,7 +1035,7 @@
       "source_line": 49
     },
     {
-      "community": 17,
+      "community": 20,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_04_ejercicios_resueltos_capitulo7",
@@ -1005,7 +1045,7 @@
       "source_line": null
     },
     {
-      "community": 17,
+      "community": 20,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_04_ejercicios_resueltos_capitulo7::guía_completa_de_ejercicios_resueltos_capítulo_7_límites_y_continuidad",
@@ -1015,7 +1055,7 @@
       "source_line": 1
     },
     {
-      "community": 18,
+      "community": 21,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_04_ejercicios_resueltos_capitulo7::1_cálculo_de_límites_indeterminados_pág_32_33",
@@ -1025,7 +1065,7 @@
       "source_line": 7
     },
     {
-      "community": 18,
+      "community": 21,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_04_ejercicios_resueltos_capitulo7::ejercicio_1a",
@@ -1035,7 +1075,7 @@
       "source_line": 9
     },
     {
-      "community": 18,
+      "community": 21,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_04_ejercicios_resueltos_capitulo7::ejercicio_2d",
@@ -1045,7 +1085,7 @@
       "source_line": 23
     },
     {
-      "community": 19,
+      "community": 22,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_04_ejercicios_resueltos_capitulo7::2_continuidad_y_cálculo_de_parámetros_pág_34",
@@ -1055,7 +1095,7 @@
       "source_line": 33
     },
     {
-      "community": 19,
+      "community": 22,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_04_ejercicios_resueltos_capitulo7::ejercicio_11",
@@ -1065,7 +1105,7 @@
       "source_line": 35
     },
     {
-      "community": 20,
+      "community": 23,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_04_ejercicios_resueltos_capitulo7::3_examen_de_autoevaluación_resuelto_pág_35",
@@ -1075,7 +1115,7 @@
       "source_line": 53
     },
     {
-      "community": 20,
+      "community": 23,
       "docstring": null,
       "file_type": "document",
       "id": "limites_y_continuidad_04_ejercicios_resueltos_capitulo7::pregunta_7",
@@ -1085,7 +1125,7 @@
       "source_line": 55
     },
     {
-      "community": 25,
+      "community": 28,
       "docstring": null,
       "file_type": "code",
       "id": "scripts_apply_styles",
@@ -1095,7 +1135,7 @@
       "source_line": null
     },
     {
-      "community": 25,
+      "community": 28,
       "docstring": null,
       "file_type": "reference",
       "id": "str::graph_html",
@@ -1255,7 +1295,7 @@
       "source_line": 50
     },
     {
-      "community": 7,
+      "community": 9,
       "docstring": null,
       "file_type": "document",
       "id": "docs_automatizacion",
@@ -1265,7 +1305,7 @@
       "source_line": null
     },
     {
-      "community": 7,
+      "community": 9,
       "docstring": null,
       "file_type": "document",
       "id": "docs_automatizacion::arquitectura_y_programación_del_guardado_automático",
@@ -1275,7 +1315,7 @@
       "source_line": 1
     },
     {
-      "community": 7,
+      "community": 9,
       "docstring": null,
       "file_type": "document",
       "id": "docs_automatizacion::1_arquitectura_del_sistema",
@@ -1285,7 +1325,7 @@
       "source_line": 7
     },
     {
-      "community": 8,
+      "community": 10,
       "docstring": null,
       "file_type": "document",
       "id": "docs_automatizacion::2_componentes_del_código",
@@ -1295,7 +1335,7 @@
       "source_line": 21
     },
     {
-      "community": 8,
+      "community": 10,
       "docstring": null,
       "file_type": "document",
       "id": "docs_automatizacion::a_regla_de_disparo_de_la_ia_agents_rules",
@@ -1305,7 +1345,7 @@
       "source_line": 23
     },
     {
-      "community": 8,
+      "community": 10,
       "docstring": null,
       "file_type": "document",
       "id": "docs_automatizacion::b_script_de_sincronización_en_powershell_scripts_sync_sugerencias_ps1",
@@ -1315,7 +1355,7 @@
       "source_line": 26
     },
     {
-      "community": 7,
+      "community": 9,
       "docstring": null,
       "file_type": "document",
       "id": "docs_automatizacion::3_script_powershell_completo_scripts_sync_sugerencias_ps1",
@@ -1325,7 +1365,7 @@
       "source_line": 35
     },
     {
-      "community": 7,
+      "community": 9,
       "docstring": null,
       "file_type": "document",
       "id": "docs_automatizacion::1_obtener_sha_del_archivo_en_github",
@@ -1335,7 +1375,7 @@
       "source_line": 49
     },
     {
-      "community": 7,
+      "community": 9,
       "docstring": null,
       "file_type": "document",
       "id": "docs_automatizacion::2_codificar_contenido_local_a_utf_8_base64",
@@ -1345,7 +1385,7 @@
       "source_line": 52
     },
     {
-      "community": 7,
+      "community": 9,
       "docstring": null,
       "file_type": "document",
       "id": "docs_automatizacion::3_enviar_actualización_vía_rest_api",
@@ -1355,7 +1395,7 @@
       "source_line": 56
     },
     {
-      "community": 7,
+      "community": 9,
       "docstring": null,
       "file_type": "document",
       "id": "docs_automatizacion::4_ciclo_de_ejecución_automática",
@@ -1365,7 +1405,7 @@
       "source_line": 68
     },
     {
-      "community": 9,
+      "community": 11,
       "docstring": null,
       "file_type": "document",
       "id": "docs_graphify_usos",
@@ -1375,7 +1415,7 @@
       "source_line": null
     },
     {
-      "community": 9,
+      "community": 11,
       "docstring": null,
       "file_type": "document",
       "id": "docs_graphify_usos::análisis_y_casos_de_uso_reales_de_graphify",
@@ -1385,7 +1425,7 @@
       "source_line": 1
     },
     {
-      "community": 9,
+      "community": 11,
       "docstring": null,
       "file_type": "document",
       "id": "docs_graphify_usos::1_tabla_comparativa_de_resultados",
@@ -1395,7 +1435,7 @@
       "source_line": 5
     },
     {
-      "community": 10,
+      "community": 12,
       "docstring": null,
       "file_type": "document",
       "id": "docs_graphify_usos::2_cuál_es_el_uso_real_de_graphify",
@@ -1405,7 +1445,7 @@
       "source_line": 14
     },
     {
-      "community": 10,
+      "community": 12,
       "docstring": null,
       "file_type": "document",
       "id": "docs_graphify_usos::a_rag_basado_en_grafos_graph_rag_para_llms",
@@ -1415,7 +1455,7 @@
       "source_line": 20
     },
     {
-      "community": 10,
+      "community": 12,
       "docstring": null,
       "file_type": "document",
       "id": "docs_graphify_usos::b_gestión_de_segundos_cerebros_pkm",
@@ -1425,7 +1465,7 @@
       "source_line": 24
     },
     {
-      "community": 10,
+      "community": 12,
       "docstring": null,
       "file_type": "document",
       "id": "docs_graphify_usos::c_auditoría_de_código_y_arquitectura_de_software",
@@ -1435,7 +1475,7 @@
       "source_line": 27
     },
     {
-      "community": 11,
+      "community": 13,
       "docstring": null,
       "file_type": "document",
       "id": "docs_graphify_usos::3_graphify_vs_notebooklm_google",
@@ -1445,7 +1485,7 @@
       "source_line": 33
     },
     {
-      "community": 11,
+      "community": 13,
       "docstring": null,
       "file_type": "document",
       "id": "docs_graphify_usos::notebooklm_el_analista_inteligente",
@@ -1455,7 +1495,7 @@
       "source_line": 37
     },
     {
-      "community": 11,
+      "community": 13,
       "docstring": null,
       "file_type": "document",
       "id": "docs_graphify_usos::graphify_el_cartógrafo_técnico",
@@ -1465,7 +1505,7 @@
       "source_line": 43
     },
     {
-      "community": 12,
+      "community": 14,
       "docstring": null,
       "file_type": "document",
       "id": "docs_graphify_usos::4_con_qué_herramientas_se_complementa_graphify",
@@ -1475,7 +1515,7 @@
       "source_line": 49
     },
     {
-      "community": 12,
+      "community": 14,
       "docstring": null,
       "file_type": "document",
       "id": "docs_graphify_usos::a_para_la_creación_de_contenido_upstream",
@@ -1485,7 +1525,7 @@
       "source_line": 53
     },
     {
-      "community": 12,
+      "community": 14,
       "docstring": null,
       "file_type": "document",
       "id": "docs_graphify_usos::b_para_automatización_y_alojamiento_ci_cd",
@@ -1495,7 +1535,7 @@
       "source_line": 56
     },
     {
-      "community": 12,
+      "community": 14,
       "docstring": null,
       "file_type": "document",
       "id": "docs_graphify_usos::c_para_inteligencia_artificial_downstream",
@@ -1505,7 +1545,7 @@
       "source_line": 61
     },
     {
-      "community": 14,
+      "community": 16,
       "docstring": null,
       "file_type": "document",
       "id": "docs_prompt_ecosistema_obsidian",
@@ -1515,7 +1555,7 @@
       "source_line": null
     },
     {
-      "community": 14,
+      "community": 16,
       "docstring": null,
       "file_type": "document",
       "id": "docs_prompt_ecosistema_obsidian::guía_y_prompt_para_ecosistemas_inteligentes_obsidian_graphify_github_mcp",
@@ -1525,7 +1565,7 @@
       "source_line": 1
     },
     {
-      "community": 14,
+      "community": 16,
       "docstring": null,
       "file_type": "document",
       "id": "docs_prompt_ecosistema_obsidian::la_arquitectura_del_ecosistema",
@@ -1535,7 +1575,7 @@
       "source_line": 7
     },
     {
-      "community": 14,
+      "community": 16,
       "docstring": null,
       "file_type": "document",
       "id": "docs_prompt_ecosistema_obsidian::el_prompt_estructurado_copia_y_pega",
@@ -1545,7 +1585,7 @@
       "source_line": 17
     },
     {
-      "community": 14,
+      "community": 16,
       "docstring": null,
       "file_type": "document",
       "id": "docs_prompt_ecosistema_obsidian::notas_técnicas_para_el_usuario",
@@ -1555,7 +1595,7 @@
       "source_line": 38
     },
     {
-      "community": 13,
+      "community": 15,
       "docstring": null,
       "file_type": "document",
       "id": "docs_prompt_auto_documentacion",
@@ -1565,7 +1605,7 @@
       "source_line": null
     },
     {
-      "community": 13,
+      "community": 15,
       "docstring": null,
       "file_type": "document",
       "id": "docs_prompt_auto_documentacion::prompt_de_auto_documentación_regla_de_sistema",
@@ -1575,7 +1615,7 @@
       "source_line": 1
     },
     {
-      "community": 13,
+      "community": 15,
       "docstring": null,
       "file_type": "document",
       "id": "docs_prompt_auto_documentacion::el_prompt_instrucción_para_la_ia",
@@ -1585,7 +1625,7 @@
       "source_line": 7
     },
     {
-      "community": 13,
+      "community": 15,
       "docstring": null,
       "file_type": "document",
       "id": "docs_prompt_auto_documentacion::por_qué_usar_este_prompt",
@@ -1595,7 +1635,7 @@
       "source_line": 27
     },
     {
-      "community": 15,
+      "community": 17,
       "docstring": null,
       "file_type": "document",
       "id": "docs_registro_actualizacion_vault",
@@ -1605,7 +1645,7 @@
       "source_line": null
     },
     {
-      "community": 15,
+      "community": 17,
       "docstring": null,
       "file_type": "document",
       "id": "docs_registro_actualizacion_vault::1_objetivo",
@@ -1615,7 +1655,7 @@
       "source_line": 6
     },
     {
-      "community": 15,
+      "community": 17,
       "docstring": null,
       "file_type": "document",
       "id": "docs_registro_actualizacion_vault::2_archivos_creados_y_modificados",
@@ -1625,7 +1665,7 @@
       "source_line": 11
     },
     {
-      "community": 15,
+      "community": 17,
       "docstring": null,
       "file_type": "document",
       "id": "docs_registro_actualizacion_vault::3_comandos_utilizados",
@@ -1635,7 +1675,7 @@
       "source_line": 15
     },
     {
-      "community": 15,
+      "community": 17,
       "docstring": null,
       "file_type": "document",
       "id": "docs_registro_actualizacion_vault::1_ejecutar_graphify",
@@ -1645,7 +1685,7 @@
       "source_line": 18
     },
     {
-      "community": 15,
+      "community": 17,
       "docstring": null,
       "file_type": "document",
       "id": "docs_registro_actualizacion_vault::2_inyectar_físicas_barnes_hut_y_estilos_css",
@@ -1655,7 +1695,7 @@
       "source_line": 22
     },
     {
-      "community": 15,
+      "community": 17,
       "docstring": null,
       "file_type": "document",
       "id": "docs_registro_actualizacion_vault::4_cómo_funciona",
@@ -1665,7 +1705,7 @@
       "source_line": 26
     },
     {
-      "community": 16,
+      "community": 19,
       "docstring": null,
       "file_type": "document",
       "id": "docs_registro_procesamiento_contabilidad",
@@ -1675,7 +1715,7 @@
       "source_line": null
     },
     {
-      "community": 16,
+      "community": 19,
       "docstring": null,
       "file_type": "document",
       "id": "docs_registro_procesamiento_contabilidad::registro_de_actividad_procesamiento_de_activo_pasivo_y_patrimonio",
@@ -1685,7 +1725,7 @@
       "source_line": 1
     },
     {
-      "community": 16,
+      "community": 19,
       "docstring": null,
       "file_type": "document",
       "id": "docs_registro_procesamiento_contabilidad::1_objetivo",
@@ -1695,7 +1735,7 @@
       "source_line": 5
     },
     {
-      "community": 16,
+      "community": 19,
       "docstring": null,
       "file_type": "document",
       "id": "docs_registro_procesamiento_contabilidad::2_archivos_modificados_creados",
@@ -1705,7 +1745,7 @@
       "source_line": 8
     },
     {
-      "community": 16,
+      "community": 19,
       "docstring": null,
       "file_type": "document",
       "id": "docs_registro_procesamiento_contabilidad::3_comandos_utilizados",
@@ -1715,7 +1755,7 @@
       "source_line": 12
     },
     {
-      "community": 16,
+      "community": 19,
       "docstring": null,
       "file_type": "document",
       "id": "docs_registro_procesamiento_contabilidad::4_cómo_funciona",
@@ -1795,7 +1835,7 @@
       "source_line": 33
     },
     {
-      "community": 26,
+      "community": 29,
       "docstring": null,
       "file_type": "document",
       "id": "tips_y_notas_ia_tip_manejo_archivos_pesados_github",
@@ -1805,7 +1845,7 @@
       "source_line": null
     },
     {
-      "community": 26,
+      "community": 29,
       "docstring": null,
       "file_type": "document",
       "id": "tips_y_notas_ia_tip_manejo_archivos_pesados_github::tip_manejo_de_archivos_pesados_en_github_y_graphify",
@@ -1815,7 +1855,7 @@
       "source_line": 1
     },
     {
-      "community": 26,
+      "community": 29,
       "docstring": null,
       "file_type": "document",
       "id": "tips_y_notas_ia_tip_manejo_archivos_pesados_github::1_límite_de_100_mb_de_github",
@@ -1825,7 +1865,7 @@
       "source_line": 8
     },
     {
-      "community": 26,
+      "community": 29,
       "docstring": null,
       "file_type": "document",
       "id": "tips_y_notas_ia_tip_manejo_archivos_pesados_github::2_congelamiento_de_graphify",
@@ -1833,6 +1873,76 @@
       "signature": null,
       "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/Tips_y_Notas_IA/Tip_Manejo_Archivos_Pesados_GitHub.md",
       "source_line": 12
+    },
+    {
+      "community": 7,
+      "docstring": null,
+      "file_type": "document",
+      "id": "contabilidad_ecuacion_contable_sesion_10_ecuacion_contable",
+      "label": "Sesion_10_Ecuacion_Contable.md",
+      "signature": null,
+      "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/Contabilidad_Ecuacion_Contable/Sesion_10_Ecuacion_Contable.md",
+      "source_line": null
+    },
+    {
+      "community": 7,
+      "docstring": null,
+      "file_type": "document",
+      "id": "contabilidad_ecuacion_contable_sesion_10_ecuacion_contable::sesión_10_la_ecuación_contable",
+      "label": "Sesión 10: La Ecuación Contable",
+      "signature": null,
+      "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/Contabilidad_Ecuacion_Contable/Sesion_10_Ecuacion_Contable.md",
+      "source_line": 1
+    },
+    {
+      "community": 8,
+      "docstring": null,
+      "file_type": "document",
+      "id": "contabilidad_ecuacion_contable_sesion_10_ecuacion_contable::conceptos_clave",
+      "label": "Conceptos Clave",
+      "signature": null,
+      "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/Contabilidad_Ecuacion_Contable/Sesion_10_Ecuacion_Contable.md",
+      "source_line": 3
+    },
+    {
+      "community": 8,
+      "docstring": null,
+      "file_type": "document",
+      "id": "contabilidad_ecuacion_contable_sesion_10_ecuacion_contable::lógica_de_la_partida_doble",
+      "label": "Lógica de la Partida Doble",
+      "signature": null,
+      "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/Contabilidad_Ecuacion_Contable/Sesion_10_Ecuacion_Contable.md",
+      "source_line": 11
+    },
+    {
+      "community": 7,
+      "docstring": null,
+      "file_type": "document",
+      "id": "contabilidad_ecuacion_contable_sesion_10_ecuacion_contable::resolución_de_ejercicios_práctica_diapositiva_16",
+      "label": "Resolución de Ejercicios (Práctica Diapositiva 16)",
+      "signature": null,
+      "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/Contabilidad_Ecuacion_Contable/Sesion_10_Ecuacion_Contable.md",
+      "source_line": 18
+    },
+    {
+      "community": 18,
+      "docstring": null,
+      "file_type": "document",
+      "id": "docs_registro_flujo_ecuacion_contable",
+      "label": "REGISTRO_FLUJO_ECUACION_CONTABLE.md",
+      "signature": null,
+      "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/docs/REGISTRO_FLUJO_ECUACION_CONTABLE.md",
+      "source_line": null
+    },
+    {
+      "community": 18,
+      "docstring": null,
+      "file_type": "document",
+      "id": "docs_registro_flujo_ecuacion_contable::auto_registro_flujo_de_ecuación_contable",
+      "label": "Auto-Registro: Flujo de Ecuación Contable",
+      "signature": null,
+      "source_file": "/home/runner/work/antigravity-sugerencias/antigravity-sugerencias/docs/REGISTRO_FLUJO_ECUACION_CONTABLE.md",
+      "source_line": 1
     }
   ]
 }

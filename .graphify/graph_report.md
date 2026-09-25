@@ -1,6 +1,6 @@
 # Graph Report
 
-**Nodes:** 108 | **Edges:** 94 | **Communities:** 27 | **Modularity:** 0.825
+**Nodes:** 115 | **Edges:** 99 | **Communities:** 30 | **Modularity:** 0.825
 
 _Built by graphify v0.8.0._
 
@@ -17,7 +17,7 @@ _Built by graphify v0.8.0._
 - **1. Conceptos Fundamentales** (4 nodes, cohesion 0.75)
 - **2. ¿Cuál es el "Uso Real" de Graphify?** (4 nodes, cohesion 0.75)
 
-... and 17 more communities (see the MCP list_communities tool).
+... and 20 more communities (see the MCP list_communities tool).
 
 ## Key Files
 
@@ -47,7 +47,7 @@ _Built by graphify v0.8.0._
 
 ## Surprising Connections
 
-Top 12 of the cross-community edges, ranked by novelty (bigger, more cohesive communities joined by fewer edges score higher):
+Top 13 of the cross-community edges, ranked by novelty (bigger, more cohesive communities joined by fewer edges score higher):
 
 - **💡 Registro Global de Notas, Tips y Conexiones de Herramientas** -> **📚 Historial de Notas y Tips Registrados** (contains) [💡 Registro Global de Notas, Tips y Conexiones de Herramientas -> 📚 Historial de Notas y Tips Registrados] (score: 3.00)
 - **Activo, Pasivo y Patrimonio (Sesión 09)** -> **1. Conceptos Fundamentales** (contains) [Activo, Pasivo y Patrimonio (Sesión 09) -> 1. Conceptos Fundamentales] (score: 3.00)
@@ -56,6 +56,7 @@ Top 12 of the cross-community edges, ranked by novelty (bigger, more cohesive co
 - **Análisis y Casos de Uso Reales de Graphify** -> **3. Graphify vs NotebookLM (Google)** (contains) [Análisis y Casos de Uso Reales de Graphify -> 3. Graphify vs NotebookLM (Google)] (score: 3.00)
 - **Análisis y Casos de Uso Reales de Graphify** -> **4. ¿Con qué herramientas se complementa Graphify?** (contains) [Análisis y Casos de Uso Reales de Graphify -> 4. ¿Con qué herramientas se complementa Graphify?] (score: 3.00)
 - **Directiva de Documentación Automática y Gestión de Conocimiento** -> **3. Formato Estándar de Documentación** (contains) [Directiva de Documentación Automática y Gestión de Conocimiento -> 3. Formato Estándar de Documentación] (score: 2.00)
+- **Sesión 10: La Ecuación Contable** -> **Conceptos Clave** (contains) [Sesión 10: La Ecuación Contable -> Conceptos Clave] (score: 2.00)
 - **📐 Guía Completa de Ejercicios Resueltos - Capítulo 7: Límites y Continuidad** -> **📌 1. Cálculo de Límites Indeterminados (Pág. 32-33)** (contains) [📐 Guía Completa de Ejercicios Resueltos - Capítulo 7: Límites y Continuidad -> 📌 1. Cálculo de Límites Indeterminados (Pág. 32-33)] (score: 2.00)
 - **📐 Guía Completa de Ejercicios Resueltos - Capítulo 7: Límites y Continuidad** -> **📌 2. Continuidad y Cálculo de Parámetros (Pág. 34)** (contains) [📐 Guía Completa de Ejercicios Resueltos - Capítulo 7: Límites y Continuidad -> 📌 2. Continuidad y Cálculo de Parámetros (Pág. 34)] (score: 2.00)
 - **📐 Guía Completa de Ejercicios Resueltos - Capítulo 7: Límites y Continuidad** -> **📌 3. Examen de Autoevaluación Resuelto (Pág. 35)** (contains) [📐 Guía Completa de Ejercicios Resueltos - Capítulo 7: Límites y Continuidad -> 📌 3. Examen de Autoevaluación Resuelto (Pág. 35)] (score: 2.00)
@@ -66,4 +67,4 @@ Top 12 of the cross-community edges, ranked by novelty (bigger, more cohesive co
 
 - Why does Graph Report have 7 connections — shared core or coupling problem?
 - 💡 Registro Global de Notas, Tips y Conexiones de Herramientas contains 📚 Historial de Notas y Tips Registrados crosses a community boundary - intentional or accidental coupling?
-- What are the responsibilities of the 27 communities?
+- What are the responsibilities of the 30 communities?
