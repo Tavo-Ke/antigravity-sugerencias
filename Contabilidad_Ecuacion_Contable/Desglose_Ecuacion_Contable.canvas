@@ -1,0 +1,124 @@
+{
+  "nodes": [
+    {
+      "id": "node_ecuacion",
+      "type": "text",
+      "text": "# ⚖️ ACTIVO = PASIVO + PATRIMONIO\n\n**Ecuación Contable Fundamental**\n\n> *Los Activos representan en qué invirtió la empresa (Bienes y Derechos), y el Pasivo + Patrimonio representan quién financió esos recursos (Obligaciones con Terceros y Dueños).*  \n> **Principio de Partida Doble**",
+      "x": -50,
+      "y": -280,
+      "width": 700,
+      "height": 180,
+      "color": "6"
+    },
+    {
+      "id": "node_activo",
+      "type": "text",
+      "text": "## 📦 ACTIVO\n**Recursos de la empresa**  \n*(Estructura Económica / Inversión)*",
+      "x": -520,
+      "y": -40,
+      "width": 380,
+      "height": 120,
+      "color": "5"
+    },
+    {
+      "id": "node_bienes",
+      "type": "text",
+      "text": "### 🏢 BIENES\n\n- ✅ **Dinero** *(Caja y Bancos - Cta 10)*\n- ✅ **Mercadería** *(Inventarios - Cta 20)*\n- ✅ **Vehículos** *(Transporte - Cta 334)*\n- ✅ **Máquinas** *(Equipos - Cta 333)*\n- ✅ **Inmuebles** *(Terrenos / Edificios - Cta 331)*",
+      "x": -720,
+      "y": 140,
+      "width": 340,
+      "height": 260,
+      "color": "5"
+    },
+    {
+      "id": "node_derechos",
+      "type": "text",
+      "text": "### 📑 DERECHOS\n\n- ✅ **CxC** *(Cuentas por cobrar - Cta 12)*\n- ✅ **Préstamos** *(Por cobrar a terceros - Cta 14)*\n- ✅ **Reclamos** *(Seguros / Créditos - Cta 16)*\n\n*Cobros exigibles por la empresa.*",
+      "x": -340,
+      "y": 140,
+      "width": 340,
+      "height": 260,
+      "color": "5"
+    },
+    {
+      "id": "node_obligaciones",
+      "type": "text",
+      "text": "## 📑 OBLIGACIONES\n**Financiamiento de los Activos**  \n*(Estructura Financiera / Origen de Fondos)*",
+      "x": 280,
+      "y": -40,
+      "width": 460,
+      "height": 120,
+      "color": "1"
+    },
+    {
+      "id": "node_terceros",
+      "type": "text",
+      "text": "### 🏦 TERCEROS (PASIVO)\n\n- ✅ **CxP** *(Cuentas por pagar - Cta 42)*\n- ✅ **Préstamos** *(Obligaciones financieras - Cta 45)*\n- ✅ **Impuestos** *(Tributos y SUNAT - Cta 40)*\n\n*Deuda externa con terceros ajenos a la empresa.*",
+      "x": 160,
+      "y": 140,
+      "width": 340,
+      "height": 260,
+      "color": "2"
+    },
+    {
+      "id": "node_duenos",
+      "type": "text",
+      "text": "### 👥 DUEÑOS (PATRIMONIO)\n\n- ✅ **Capital** *(Aporte social inicial - Cta 50)*\n- ✅ **Acciones** *(Participaciones sociales - Cta 50/51)*\n- ✅ **Resultados** *(Utilidades acumuladas - Cta 59)*\n\n*Financiamiento propio aportado o generado por dueños.*",
+      "x": 540,
+      "y": 140,
+      "width": 340,
+      "height": 260,
+      "color": "4"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_eq_to_act",
+      "fromNode": "node_ecuacion",
+      "fromSide": "bottom",
+      "toNode": "node_activo",
+      "toSide": "top",
+      "color": "5"
+    },
+    {
+      "id": "edge_eq_to_obl",
+      "fromNode": "node_ecuacion",
+      "fromSide": "bottom",
+      "toNode": "node_obligaciones",
+      "toSide": "top",
+      "color": "1"
+    },
+    {
+      "id": "edge_act_to_bie",
+      "fromNode": "node_activo",
+      "fromSide": "bottom",
+      "toNode": "node_bienes",
+      "toSide": "top",
+      "color": "5"
+    },
+    {
+      "id": "edge_act_to_der",
+      "fromNode": "node_activo",
+      "fromSide": "bottom",
+      "toNode": "node_derechos",
+      "toSide": "top",
+      "color": "5"
+    },
+    {
+      "id": "edge_obl_to_ter",
+      "fromNode": "node_obligaciones",
+      "fromSide": "bottom",
+      "toNode": "node_terceros",
+      "toSide": "top",
+      "color": "2"
+    },
+    {
+      "id": "edge_obl_to_due",
+      "fromNode": "node_obligaciones",
+      "fromSide": "bottom",
+      "toNode": "node_duenos",
+      "toSide": "top",
+      "color": "4"
+    }
+  ]
+}
