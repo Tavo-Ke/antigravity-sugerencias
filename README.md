@@ -37,3 +37,20 @@
 ---
 
 *Repositorio actualizado automáticamente por Antigravity AI.*
+
+---
+
+## 🧠 Nueva Arquitectura: La Superneurona de Obsidian & Ciclo Contable
+
+Se integró un sistema de extracción y modelado neuronal del conocimiento contable:
+
+### ⚖️ Módulo: Ecuación y Ciclo Contable (Pizarras Digitalizadas)
+- 📊 [**Contabilidad_Ecuacion_Contable/Diagrama_Ciclo_Contable.md**](https://github.com/Tavo-Ke/antigravity-sugerencias/blob/main/Contabilidad_Ecuacion_Contable/Diagrama_Ciclo_Contable.md): Ecuación Fundamental (`Activo = Pasivo + Patrimonio`) y el ciclo de 3 fases (Registrar, Analizar, EEFF) bajo el PCGE peruano.
+- 📑 [**Contabilidad_Ecuacion_Contable/Desglose_Ecuacion_Contable.md**](https://github.com/Tavo-Ke/antigravity-sugerencias/blob/main/Contabilidad_Ecuacion_Contable/Desglose_Ecuacion_Contable.md): Desglose exhaustivo de Bienes y Derechos (Activos) vs. Obligaciones con Terceros y Dueños (Pasivo + Patrimonio).
+- 🗺️ [**Contabilidad_Ecuacion_Contable/Desglose_Ecuacion_Contable.canvas**](https://github.com/Tavo-Ke/antigravity-sugerencias/blob/main/Contabilidad_Ecuacion_Contable/Desglose_Ecuacion_Contable.canvas): Mapa visual interactivo en Obsidian Canvas.
+- 🗺️ [**Contabilidad_Ecuacion_Contable/Ciclo_Contable_Ecuacion.canvas**](https://github.com/Tavo-Ke/antigravity-sugerencias/blob/main/Contabilidad_Ecuacion_Contable/Ciclo_Contable_Ecuacion.canvas): Flujo visual del ciclo contable.
+
+### 🌌 Herramienta Superneurona: Cerebro Central de la Bóveda
+- 🗺️ [**SUPERNEURONA_HUB.canvas**](https://github.com/Tavo-Ke/antigravity-sugerencias/blob/main/SUPERNEURONA_HUB.canvas): Mega Canvas de Obsidian que conecta 8 clústeres temáticos (Ecuación, Activos, Pasivos, Gastos/Ingresos, NIIF, Casos Prácticos, Videoteca y Tecnología) con sinapsis cruzadas.
+- 📑 [**SUPERNEURONA_CENTRAL.md**](https://github.com/Tavo-Ke/antigravity-sugerencias/blob/main/SUPERNEURONA_CENTRAL.md): Matriz de conexión con directorio de carpetas, nube de etiquetas (`#PCGE`, `#NIIF`, etc.) y reproductores de video de YouTube.
+- ⚙️ [**scripts/superneurona_builder.py**](https://github.com/Tavo-Ke/antigravity-sugerencias/blob/main/scripts/superneurona_builder.py): Script en Python que analiza automáticamente la bóveda de Obsidian y reconstruye el grafo neuronal.
