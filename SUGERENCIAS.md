@@ -65,3 +65,13 @@ Este archivo recopila detalladamente todas las notas, tips técnicos, configurac
 ---
 
 *Documento sincronizado y mantenido activamente en GitHub por Antigravity AI.*
+
+---
+
+## 💡 Módulo: Digitalización de Pizarras & Superneurona de Obsidian
+- **Fecha:** 13 de octubre de 2026
+- **Herramientas Utilizadas:** Obsidian Canvas, Mermaid.js, Generative UI (Tailwind CSS), Python AST/Vault Parser (`superneurona_builder.py`).
+- **Resumen:**
+  1. **Ecuación Contable:** Se modeló la fórmula `Activo = Pasivo + Patrimonio` en 3 fases (Registrar con PCGE, Analizar integridad y saldos, y EEFF).
+  2. **Desglose Estructural:** Activo (Bienes + Derechos) y Obligaciones (Terceros / Pasivo y Dueños / Patrimonio).
+  3. **Superneurona:** Motor automatizado que analiza los 78 nodos de la bóveda de Obsidian y genera un mapa sináptico 2D con videoteca y enlaces cruzados.
