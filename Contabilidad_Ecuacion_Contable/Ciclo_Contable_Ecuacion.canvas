@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"node_ecuacion","type":"text","text":"# ⚖️ ACTIVO = PASIVO + PATRIMONIO\n\n**Ecuación Contable Fundamental**\n\n> *Todo recurso económico controlado por la entidad (Activo) es financiado por obligaciones con terceros (Pasivo) o por los accionistas (Patrimonio).*  \n> **Principio:** Partida Doble","x":0,"y":-260,"width":620,"height":180,"color":"5"},
+		{"id":"node_registrar","type":"text","text":"## ① REGISTRAR\n\n- ✅ **Operaciones económicas**\n  - Compras, ventas, cobranzas y pagos\n- ✅ **Plan de cuentas (PCGE)**\n  - Estructuración según los Elementos 1 al 9\n\n*Entrada de información en libros auxiliares y diario.*","x":-460,"y":60,"width":380,"height":240,"color":"1"},
+		{"id":"node_analizar","type":"text","text":"## ② ANALIZAR\n\n- ✅ **Todo esté registrado**\n  - Integridad y completitud del periodo\n- ✅ **Cuentas correctas**\n  - Verificación de saldos y asientos\n  - Conciliación bancaria y cuadre\n\n*Fase de control y balance de comprobación.*","x":0,"y":60,"width":400,"height":240,"color":"2"},
+		{"id":"node_eeff","type":"text","text":"## ③ EEFF\n\n- ✅ **Reporte Financiero**\n  - Estado de Situación Financiera\n  - Estado de Resultados\n  - Flujo de Efectivo\n\n*Salida para gerencia, bancos y SUNAT.*","x":480,"y":60,"width":380,"height":240,"color":"4"}
+	],
+	"edges":[
+		{"id":"edge_eq_to_reg","fromNode":"node_ecuacion","fromSide":"bottom","toNode":"node_registrar","toSide":"top","color":"1"},
+		{"id":"edge_eq_to_ana","fromNode":"node_ecuacion","fromSide":"bottom","toNode":"node_analizar","toSide":"top","color":"2"},
+		{"id":"edge_eq_to_eeff","fromNode":"node_ecuacion","fromSide":"bottom","toNode":"node_eeff","toSide":"top","color":"4"}
+	]
+}
